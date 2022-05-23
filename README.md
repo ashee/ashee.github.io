@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# Amitava Shee
 
-You can use the [editor on GitHub](https://github.com/ashee/ashee.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+_CTO - Data Science & Architecture, Fintech, Ann Arbor, Michigan, USA_ <br>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[Email](mailto:amitava.shee@gmail.com) / [Website](https://www.amitavashee.com/) / [LinkedIn](https://www.linkedin.com/in/amitavashee/) / [GitHub](https://github.com/ashee/) / [Twitter](https://twitter.com/amitavashee/)
 
-### Markdown
+## Experience
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Chief Technology Officer** @ [reThought Insurance](https://www.rethoughtinsurance.com/) _(May 2021 - Mar 2022)_ <br>
+Build, operationalize and support reThought Flood Insurance Underwriting platform
+  - Scalable Underwriting platform built on 
+    - Rust, Typescript and Foundation DB that runs on self-hosted Kubernetes infrastructure
+    - Integrates with 3rd party API services such as [HazardHub](https://hazardhub.com/), [InsCipher](https://www.inscipher.com/) and [insurdata](https://www.insurdata.io/) among others
+    - Host and integrate with Catastrophe Modeling Risk Analytics platforms - [AIR Touchstone](https://www.air-worldwide.com/software-solutions/Touchstone/), [KatRisk SpatialKat](https://www.katrisk.com/spatialkat) and [KatRisk SoloKat](https://www.katrisk.com/solokat)
+   - Oversee integration with satellite data provider [Hydronos Labs](https://hydronoslabs.com/)
+  - Pioneered a new risk metric _Resilience Score_ that incorporates flood exposure data from [National Flood Insurance Program (NFIP)](https://www.fema.gov/flood-insurance)
+  - Data Center infrastructure that integrates with multi cloud solutions in [Azure](https://azure.microsoft.com/en-us/), [AWS](https://aws.amazon.com/) and [Wasabi](https://wasabi.com/)
+ - Own engineering teams with team sizes of
+    - Software Development (9)
+    - Data Science (3)
+    - Devops (3)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Education
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ashee/ashee.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+**Bachelor of Engineering** in Computer Science<br>
+[Birla Institute of Technology](https://www.bitmesra.ac.in/) - BIT Mesra, Ranchi, India _(1990 - 1994)_
