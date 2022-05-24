@@ -76,7 +76,7 @@ Developed a C++ based Microsoft COM/DCOM integration module in an object databas
 **Senior Software Engineer** @ [Tata Elxsi](https://www.tataelxsi.com/) _(1995 - 1997)_ <br>
 Provided Electronic Data Interchange (EDI) consulting services for GE Information Services (GEIS)Provided Electronic Data Interchange (EDI) consulting services for GE Information Services (GEIS)
 
-**Management Trainee** @ [Fujitsu ICIM](https://www.tataelxsi.com/) _(1994 - 1995)_ <br>
+**Management Trainee** @ [Fujitsu ICIM](http://www.source2update.com/Company-History/Fujitsu-ICIM-FUJICI.html) _(1994 - 1995)_ <br>
 Developed system code in Unix and C/C++
 
 ## Education
