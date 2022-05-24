@@ -71,9 +71,8 @@ Developed an Asset Backed Securities (ABS) online platform for the securities gr
 **Senior Software Engineer** @ [CA Technologies](https://company.monsterindia.com/catcgin/) _(1999 - 1999)_ <br>
 Developed a C++ based Microsoft COM/DCOM integration module in an object database product. Includes SNMP agents and MIB's for this module
 
-
 **Senior Software Engineer** @ [Tata Elxsi](https://www.tataelxsi.com/) _(1995 - 1997)_ <br>
-Provided Electronic Data Interchange (EDI) consulting services for GE Information Services (GEIS)Provided Electronic Data Interchange (EDI) consulting services for GE Information Services (GEIS)
+Provided Electronic Data Interchange (EDI) consulting services for GE Information Services (GEIS)
 
 **Management Trainee** @ [Fujitsu ICIM](http://www.source2update.com/Company-History/Fujitsu-ICIM-FUJICI.html) _(1994 - 1995)_ <br>
 Developed system code in Unix and C/C++
