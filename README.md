@@ -5,7 +5,7 @@ _CTO - Data Science & Architecture, Fintech, Ann Arbor, Michigan, USA_ <br>
 [Email](mailto:amitava.shee@gmail.com) / [Website](https://www.amitavashee.com/) / [LinkedIn](https://www.linkedin.com/in/amitavashee/) / [GitHub](https://github.com/ashee/) / [Twitter](https://twitter.com/amitavashee/)
 
 ## Summary
-Technology leader with a broad and deep skillset in architecture, development and operating internet scale distributed applications in an agile setting
+Technology leader with a broad and deep skillset in agile architecture, development and operating internet scale distributed applications
 
 ## Experience
 
