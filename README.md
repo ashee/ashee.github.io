@@ -10,7 +10,7 @@ Technology leader with a broad and deep skillset in agile architecture, developm
 ## Experience
 
 **Chief Technology Officer** @ [reThought Insurance](https://www.rethoughtinsurance.com/) _(May 2021 - Mar 2022)_ <br>
-Build, operationalize and support reThought Flood Insurance Underwriting platform scalable Underwriting platform built on 
+Build, operationalize and support reThought Flood Insurance Underwriting platform built on 
 - Rust, Typescript and Foundation DB that runs on self-hosted Kubernetes infrastructure
 - Integrates with 3rd party API services such as [HazardHub](https://hazardhub.com/), [InsCipher](https://www.inscipher.com/) and [insurdata](https://www.insurdata.io/) among others
 - Hosting and integration with Catastrophe Modeling Risk Analytics platforms - [AIR Touchstone](https://www.air-worldwide.com/software-solutions/Touchstone/), [KatRisk SpatialKat](https://www.katrisk.com/spatialkat) and [KatRisk SoloKat](https://www.katrisk.com/solokat)
