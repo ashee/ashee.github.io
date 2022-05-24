@@ -3,3 +3,4 @@ title: Amitava Shee
 description: CTO - Data Science and Architecture
 show_downloads: false
 google_analytics: 316333456
+exclude: [bin, Gemfile, Gemfile.lock, readme.txt, CNAME, ]

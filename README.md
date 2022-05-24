@@ -2,7 +2,7 @@
 
 _CTO - Data Science & Architecture, Fintech, Ann Arbor, Michigan, USA_
 
-[Email](mailto:amitava.shee@gmail.com) / [Website](https://www.amitavashee.com/) / [LinkedIn](https://www.linkedin.com/in/amitavashee/) / [GitHub](https://github.com/ashee/) / [Twitter](https://twitter.com/amitavashee/) / [Resume (pdf)](https://www.amitavashee.com/Amitava Shee Resume.pdf)
+<a class="bi bi-envelope" href="mailto:amitava.shee@gmail.com"> Email</a> / <a class="bi bi-globe" href="{{site_url}}"> Website</a> / <a class="bi bi-linkedin" href="https://www.linkedin.com/in/amitavashee/"> LinkedIn</a> / <a class="bi bi-github" href="https://github.com/ashee/"> Github</a> / <a class="bi bi-twitter" href="https://twitter.com/amitavashee/"> Twitter</a> / <a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee Resume.pdf"> Resume</a>
 
 ## Summary
 Technology leader with a broad and deep skillset in agile architecture, development and operating internet scale distributed applications
@@ -16,11 +16,11 @@ Build, operationalize and support reThought Flood Insurance Underwriting platfor
 - Integrates with 3rd party API services such as [HazardHub](https://hazardhub.com/), [InsCipher](https://www.inscipher.com/) and [insurdata](https://www.insurdata.io/) among others
 - Hosting and integration with Catastrophe Modeling Risk Analytics platforms - [AIR Touchstone](https://www.air-worldwide.com/software-solutions/Touchstone/), [KatRisk SpatialKat](https://www.katrisk.com/spatialkat) and [KatRisk SoloKat](https://www.katrisk.com/solokat)
 - Oversee integration with satellite data provider [Hydronos Labs](https://hydronoslabs.com/)
-- Pioneered a new risk metric _Resilience Score_ that incorporates flood exposure data from [National Flood Insurance Program (NFIP)](https://www.fema.gov/flood-insurance)
+- Enhanced risk scoring metrics with flood exposure data from [National Flood Insurance Program (NFIP)](https://www.fema.gov/flood-insurance)
 - Data Center infrastructure that integrates with multi cloud solutions in [Azure](https://azure.microsoft.com/en-us/), [AWS](https://aws.amazon.com/) and [Wasabi](https://wasabi.com/)
 - Run engineering teams of Software Development (9), Data Science (3) and Devops (3)
 
-**Principal Engineer** @ [Ithaka](https://www.ithaka.org/) _(Jan 2017 - May 2021)_
+**Principal Engineer, AI & Machine Learning** @ [Ithaka](https://www.ithaka.org/) _(Jan 2017 - May 2021)_
 
 Drive product growth by implementing advanced search features within the Ithaka online platform that include its flagship product [JSTOR](https://www.jstor.org/) among others
 - Machine Learning applications to improve search results such as _Eigen Search_ in collaboration with [University of Washington, Seattle](https://www.washington.edu/)
