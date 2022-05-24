@@ -2,7 +2,7 @@
 
 _CTO - Data Science & Architecture, Fintech, Ann Arbor, Michigan, USA_
 
-[Email](mailto:amitava.shee@gmail.com) / [Website](https://www.amitavashee.com/) / [LinkedIn](https://www.linkedin.com/in/amitavashee/) / [GitHub](https://github.com/ashee/) / [Twitter](https://twitter.com/amitavashee/)
+[Email](mailto:amitava.shee@gmail.com) / [Website](https://www.amitavashee.com/) / [LinkedIn](https://www.linkedin.com/in/amitavashee/) / [GitHub](https://github.com/ashee/) / [Twitter](https://twitter.com/amitavashee/) / [Resume (pdf)](https://www.amitavashee.com/Amitava Shee Resume.pdf)
 
 ## Summary
 Technology leader with a broad and deep skillset in agile architecture, development and operating internet scale distributed applications
@@ -60,6 +60,7 @@ Drive product growth by implementing advanced search features within the Ithaka 
 - Implemented a DotNetNuke (DNN) based portal for managing Borrowers, Students, Schools and Guarantors at SallieMae.
 
 **Software Architect** @ [CONTEXTWEB](https://www.crunchbase.com/organization/contextweb) _(2002 - 2004)_
+
 Developed an Asset Backed Securities (ABS) online platform for the securities group at Royal Bank of Canada in an early stage startup in New York City
 
 **Software Architect** @ [Techna International](https://www.crunchbase.com/organization/techna) _(1999 - 2002)_
@@ -69,18 +70,21 @@ Developed an Asset Backed Securities (ABS) online platform for the securities gr
 
 
 **Senior Software Engineer** @ [CA Technologies](https://company.monsterindia.com/catcgin/) _(1999 - 1999)_
+
 Developed a C++ based Microsoft COM/DCOM integration module in an object database product. Includes SNMP agents and MIB's for this module
 
 **Senior Software Engineer** @ [Tata Elxsi](https://www.tataelxsi.com/) _(1995 - 1997)_
+
 Provided Electronic Data Interchange (EDI) consulting services for GE Information Services (GEIS)
 
 **Management Trainee** @ [Fujitsu ICIM](http://www.source2update.com/Company-History/Fujitsu-ICIM-FUJICI.html) _(1994 - 1995)_
+
 Developed system code in Unix and C/C++
 
 ## Education
 
 **Bachelor of Engineering** in Computer Science
-[Birla Institute of Technology](https://www.bitmesra.ac.in/) - BIT Mesra, Ranchi, India _(1990 - 1994)_
+[Birla Institute of Technology](https://www.bitmesra.ac.in) - BIT Mesra, Ranchi, India _(1990 - 1994)_
 
 ## Certifications
 MOR Leaders Program  _(May 2016)_
