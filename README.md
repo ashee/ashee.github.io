@@ -81,3 +81,7 @@ Developed system code in Unix and C/C++
 
 **Bachelor of Engineering** in Computer Science<br>
 [Birla Institute of Technology](https://www.bitmesra.ac.in/) - BIT Mesra, Ranchi, India _(1990 - 1994)_
+
+## Certifications
+MOR Leaders Program  _(May 2016)_ <br>
+Scrum Alliance, License: 000339704  _(May 2016)_ <br>
