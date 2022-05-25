@@ -12,7 +12,7 @@ Technology leader with a broad and deep skillset in agile architecture, developm
 **Chief Technology Officer** @ [reThought Insurance](https://www.rethoughtinsurance.com/) _(May 2021 - Mar 2022)_
 
 Build, operationalize and support reThought Flood Insurance Underwriting platform built on 
-- Rust, Typescript and Foundation DB that runs on self-hosted Kubernetes infrastructure
+- Rust, [React/Typescript](https://reactjs.org/) and [FoundationDB](https://www.foundationdb.org/) that runs on self-hosted [Kubernetes](https://github.com/kubernetes-sigs/kubespray)
 - Integrates with 3rd party API services such as [HazardHub](https://hazardhub.com/), [InsCipher](https://www.inscipher.com/) and [insurdata](https://www.insurdata.io/) among others
 - Hosting and integration with Catastrophe Modeling Risk Analytics platforms - [AIR Touchstone](https://www.air-worldwide.com/software-solutions/Touchstone/), [KatRisk SpatialKat](https://www.katrisk.com/spatialkat) and [KatRisk SoloKat](https://www.katrisk.com/solokat)
 - Oversee integration with satellite data provider [Hydronos Labs](https://hydronoslabs.com/)
@@ -30,27 +30,27 @@ Drive product growth by implementing advanced search features within the Ithaka 
 - Developed a search API within a [microservice architecture](https://martinfowler.com/articles/microservices.html). Used [Java 8](https://www.oracle.com/java/technologies/java8.html) and [Spring Boot React](https://spring.io/reactive) in a team of 6 engineers
 
 **Architect, Research Program** @ [University of Michigan Medical School](https://www.uofmhealth.org/) _(Nov 2013 - Jan 2017)_
-- Delivered MedBus – a SOA based Data Services platform that integrates large-scale health data using JBoss & java technologies
+- Delivered MedBus – a SOA based Data Services platform that integrates large-scale health data using [JBoss Data Virtualization](https://developers.redhat.com/products/datavirt/overview)
 - Built a case for an API management solution. Helped bring IBM’s API Management and Data Power products to the enterprise
 - Co-lead the Data & Infrastructure Committee in a national healthcare research network called PCORNet. Delivered over 2M patients in a record 6 months
 - Contributing to the president’s $100M Data Science Initiative that brings together leaders in Data Science and Machine Learning
 - Helped develop a DevOps group and contributed foundational Ansible code
 
-**Enterprise Architect, Medical School** @ [University of Michigan Health System](https://www.uofmhealth.org/) _(Mar 2011 - Nov 2013)_
-- Established an Enterprise Architecture program
-- Oversee and engaged 5AM/Quintiles to develop a Research IT Strategy and an implementation Roadmap
-- Evaluated cloud vendors and implement AWS
+**Enterprise Architect, Office of CIO** @ [University of Michigan Health System](https://www.uofmhealth.org/) _(Mar 2011 - Nov 2013)_
+- Established an Enterprise Architecture program based on [TOGAF](https://www.opengroup.org/togaf)
+- Engaged consulting firms [5AM](https://www.5amsolutions.com/) and [Quintiles](https://www.iqvia.com/) to develop a Healthcare Research IT Strategy & Roadmap
+- Evaluate and implement cloud vendor (AWS)
 
 **Information Architect, Enabling Technology** @ [University of Michigan Medical School](https://medicine.umich.edu/medschool/home) _(2009 - 2011)_
 - Led an applied research program (ENCORE) in medical education to support the Associate Dean's innovation program
-- Developed rapid applications in CodeIgnitor/Ruby-on-Rails with turnaround times in weeks to support educational experiments
+- Developed rapid applications in [Ruby on Rails](https://rubyonrails.org/) with turnaround times in weeks to support educational research
 - Used Google analytics to present and visualize key insights
 
 **Manager, Enterprise Architecture** @ [University of Michigan Health System](https://www.uofmhealth.org/) _(Jun 2007 - Jan 2009)_
-- Led development of clinical application architecture standards
+- Led development of clinical application architecture standards and their integration using [IBM MQ/Websphere](https://www.ibm.com/products/mq)
 - Identified projects, created and presented proposals and acquired funding for capital projects
-- Helped in the selection of Epic (EMR)
-- Developed solutions in Enterprise Master Provider Index (EMPI) coded medication (RxNorm/IMO) and Lexicon (Apelon)
+- Key stakeholder in the selection of [Epic healthcare system](https://www.epic.com/)
+- Other notable solutions include [EMPI](https://portal.ct.gov/DSS/ITS/DSS-HealthIT/Business-Intelligence-and-DSS-HealthIT/Enterprise-Master-Person-Index), [RxNorm](https://www.nlm.nih.gov/research/umls/rxnorm/index.html), [IMO](https://www.imohealth.com/) and [Apelon](https://www.apelon.com/)
 
 **Banking & Financial Services** @ [Cognizant Technology Solutions](https://www.cognizant.com/nl/en/banking) _(2004 - 2007)_
 - Integrated Pitney Bowes (mainframe) with a J2EE/WebLogic application for managing electronic bills online for GMAC.
@@ -60,8 +60,7 @@ Drive product growth by implementing advanced search features within the Ithaka 
 - Implemented a DotNetNuke (DNN) based portal for managing Borrowers, Students, Schools and Guarantors at SallieMae.
 
 **Software Architect** @ [CONTEXTWEB](https://www.crunchbase.com/organization/contextweb) _(2002 - 2004)_
-
-Developed an Asset Backed Securities (ABS) online platform for the securities group at Royal Bank of Canada in an early stage startup in New York City
+- Developed an Asset Backed Securities (ABS) online platform for the securities group at [Royal Bank of Canada](https://www.rbccm.com/en/) in an early stage startup
 
 **Software Architect** @ [Techna International](https://www.crunchbase.com/organization/techna) _(1999 - 2002)_
 - Blue Martini (J2EE/Weblogic) consultant at Stanford School of Business. Implement single-sign-on (SSO) using Oblix
@@ -70,16 +69,13 @@ Developed an Asset Backed Securities (ABS) online platform for the securities gr
 
 
 **Senior Software Engineer** @ [CA Technologies](https://company.monsterindia.com/catcgin/) _(1999 - 1999)_
-
-Developed a C++ based Microsoft COM/DCOM integration module in an object database product. Includes SNMP agents and MIB's for this module
+- Developed a C++ based Microsoft COM/DCOM integration module in an object database product. Includes SNMP agents and MIB's for this module
 
 **Senior Software Engineer** @ [Tata Elxsi](https://www.tataelxsi.com/) _(1995 - 1997)_
-
-Provided Electronic Data Interchange (EDI) consulting services for GE Information Services (GEIS)
+- Provided Electronic Data Interchange (EDI) consulting services for GE Information Services (GEIS)
 
 **Management Trainee** @ [Fujitsu ICIM](http://www.source2update.com/Company-History/Fujitsu-ICIM-FUJICI.html) _(1994 - 1995)_
-
-Developed system code in Unix and C/C++
+- Developed system code in Unix and C/C++
 
 ## Education
 
