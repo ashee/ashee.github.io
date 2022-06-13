@@ -52,7 +52,7 @@ Drive product growth by implementing advanced search features within the Ithaka 
 - Key stakeholder in the selection of [Epic healthcare system](https://www.epic.com/)
 - Other notable solutions include [EMPI](https://portal.ct.gov/DSS/ITS/DSS-HealthIT/Business-Intelligence-and-DSS-HealthIT/Enterprise-Master-Person-Index), [RxNorm](https://www.nlm.nih.gov/research/umls/rxnorm/index.html), [IMO](https://www.imohealth.com/) and [Apelon](https://www.apelon.com/)
 
-**Banking & Financial Services** @ [Cognizant Technology Solutions](https://www.cognizant.com/nl/en/banking) _(2004 - 2007)_
+**Architect, Banking & Financial Services** @ [Cognizant Technology Solutions](https://www.cognizant.com/nl/en/banking) _(2004 - 2007)_
 - Integrated Pitney Bowes (mainframe) with a J2EE/WebLogic application for managing electronic bills online for GMAC.
 - Developed BizTalk modules to integrate PeopleSoft General Ledger, Loan Origination Systems (QRM, Focus) and legacy sales system at Indymac bank.
 - Developed an Enterprise Architecture based on Zachman Framework (ZF) for SallieMae. 
