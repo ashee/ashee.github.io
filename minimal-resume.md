@@ -86,6 +86,10 @@ Provided Electronic Data Interchange (EDI) consulting services for GE Informatio
 ---
 Management Trainee
 Fujitsu
+Pune, India
 09/1994 - 08/1995
 
 Developed system code in Unix and C/C++
+
+---
+Birla Institute of Technology, Mesra
