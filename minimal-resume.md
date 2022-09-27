@@ -1,3 +1,9 @@
+Amitava Shee
+amitava.shee@gmail.com
+1672 Briar Ridge Dr
+Ann Arbor, MI 48108
+646-387-7200
+
 -----
 CTO
 reThought Insurance
@@ -92,4 +98,5 @@ Pune, India
 Developed system code in Unix and C/C++
 
 ---
-Birla Institute of Technology, Mesra
+Birla Institute of Technology, Mesra, India
+https://www.amitavashee.com
