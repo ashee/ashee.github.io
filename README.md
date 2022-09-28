@@ -23,8 +23,12 @@ Build, operationalize and support reThought Flood Insurance Underwriting platfor
 **Principal Engineer, AI & Machine Learning** @ [Ithaka](https://www.ithaka.org/) _(Jan 2017 - May 2021)_
 
 Drive product growth by implementing advanced search features within the Ithaka online platform that include its flagship product [JSTOR](https://www.jstor.org/) among others
-- Machine Learning applications to improve search results such as _Eigen Search_ in collaboration with [University of Washington, Seattle](https://www.washington.edu/)
+- Learning to Boost (L2B) - an ML model to dynamically generate search engine boosting parameters 
+- AWS Sagemaker to deliver ML models to our search microservices consumers
+- Eigensearch - a content recommendation engine using PCA/SVD in collaboration with [University of Washington, Seattle](https://www.washington.edu/)
+- Generate embeddings based on our own corpus similar to GloVe from Stanford
 - Developed an [A/B testing](https://en.wikipedia.org/wiki/A/B_testing) framework by implementing a statistical [hypothesis testing](https://towardsdatascience.com/hypothesis-testing-for-a-b-test-an-application-of-inferential-statistics-5ae2e779ff04) framework
+- ML pipeline - a CI/CD MLOps pipeline to continuously data mine clickstream data, train models and deploy to production cycle
 - Implemented data mining and analytics on clickstream data using [Data Bricks on AWS](https://databricks.com/product/aws)
 - Implemented distributed search using [Apache Solr](https://solr.apache.org/) 8.10 at an internet scale by leveraging Kubernetes ([AWS EKS](https://aws.amazon.com/eks/)) and many other AWS Cloud services. Replaced previous version that ran on [Data Stax](https://www.datastax.com/products/datastax-enterprise/dse-search) and [Apache Cassandra](https://docs.datastax.com/en/landing_page/doc/landing_page/cassandra.html#CassandradocumentationincludedwithDataStaxEnterprise) resulting in significant cost savings
 - Developed a search API within a [microservice architecture](https://martinfowler.com/articles/microservices.html). Used [Java 8](https://www.oracle.com/java/technologies/java8.html) and [Spring Boot React](https://spring.io/reactive) in a team of 6 engineers
