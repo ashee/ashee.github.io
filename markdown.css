@@ -1,0 +1,25 @@
+h1 {
+	padding-bottom: 0;
+	/* line-height: 1.2; */
+	border-bottom-width: 0px;
+	border-bottom-style: none;
+    /* font-size: 1.6em, */
+    margin-bottom: 0;
+    margin-block: 0;
+}
+
+h2 {
+	font-size: 1.3em;
+    margin-block: 0;
+    margin-top: 0;
+    margin-bottom: .05em;
+}
+
+p:nth-of-type(1) {
+    margin-top: .05em;
+}
+
+p {
+    margin-top: .75em;
+    margin-bottom: .75em;
+}
