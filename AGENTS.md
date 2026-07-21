@@ -21,8 +21,10 @@ This repository is the source of truth for Amitava Shee's professional profile, 
 - `_config.yml`: Jekyll and GitHub Pages configuration.
 - `_layouts/default.html`: custom page layout.
 - `markdown.css`: print/PDF styling.
+- `pdf/resume-header.tex`: compact Pandoc/XeLaTeX styling for the generated resume PDF.
 - `bin/s.sh`: runs the local Jekyll development server.
-- `bin/gen-pdf.sh` and `bin/ren-readme-pdf.sh`: rename an exported `README.pdf` to `Amitava Shee Resume.pdf`.
+- `bin/gen-pdf.sh`: generates `Amitava Shee Resume.pdf` from the canonical profile.
+- `bin/ren-readme-pdf.sh`: legacy helper for manually exported `README.pdf` files.
 
 ## Working conventions
 
@@ -43,4 +45,10 @@ bin/s.sh
 
 For content-only changes, also review the Markdown diff and confirm that links and Liquid expressions such as `{{site_url}}` remain intact.
 
-PDF creation is currently manual: export `README.md` to `README.pdf` with a Markdown-to-PDF tool, then run `bin/gen-pdf.sh`.
+Generate the resume PDF from the repository root with:
+
+```sh
+bin/gen-pdf.sh
+```
+
+The build requires Pandoc and XeLaTeX and uses `Amitava Shee.md` as its default source. Review the page count, text extraction, and final visual layout after material content or style changes.
