@@ -4,16 +4,17 @@ Ann Arbor, MI | <amitava.shee@gmail.com> | (646) 387-7200 | linkedin.com/in/amit
 
 ## Summary
 
-Results-driven technology leader with 15+ years of experience specializing in building and scaling cloud-native recommendation and search engines at internet scale. Proven track record of delivering high-impact platforms that accelerate time-to-market and achieve significant cost savings. Experienced in leading multidisciplinary teams across software engineering, data science, and platform engineering for global brands in music streaming, fintech, and healthcare.
+Results-driven technology leader with 15+ years of experience specializing in building and scaling cloud-native recommendation and search engines at internet scale. Proven track record of delivering high-impact platforms that accelerate time-to-market and achieve significant cost savings. Experienced in leading multidisciplinary teams across AI, software engineering, data science, and platform engineering for global brands in music streaming, fintech, and healthcare.
 
 ## Experience
 
-**Director, Services & Platform Engineering | SiriusXM** | New York, NY | Nov 2022 - Present
+**Consultant, Services & Platform Engineering | SiriusXM** | New York, NY | Nov 2022 - Present
 
-* Engineered and launched a new recommendation engine for 30M consumers on a new streaming platform, achieving a market launch in a record 13 months.
+* As acting Director of Personalization, Engineered and launched a new recommendation engine for 30M consumers on a new streaming platform, achieving a market launch in a record 13 months.
 * Optimized cloud costs by 68%, reducing monthly spend from $1.57M to $507K without impacting system performance.
 * Led a 20-person engineering team to build and operate a machine learning platform for online and batch inference, processing over 1B records daily at scale
 * Architected a resilient, fault-tolerant platform that enabled rapid innovation and delivered new differentiated product offerings.
+* Executing on delivering ChatGPT, Claude and Gemini MCP connected app after delivering POC's. Includes implementation of AI/LLM with RAG with Postgres (pgvector) and Graph DB (Neptune)
 
 **Chief Technology Officer | reThought Insurance** | Broomfield, CO | May 2021 - Mar 2022
 
