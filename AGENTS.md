@@ -2,7 +2,7 @@
 
 ## Repository purpose
 
-This repository is the source of truth for Amitava Shee's professional profile, including the personal website, resume, and LinkedIn profile. GitHub Pages builds the site with Jekyll using `README.md` as the main page.
+This repository is the source of truth for Amitava Shee's professional profile, including the personal website, resume, and LinkedIn profile. GitHub Pages serves the prebuilt static site directly from `index.html`; Jekyll is intentionally disabled with `.nojekyll`.
 
 ## Source of truth
 
@@ -14,15 +14,17 @@ This repository is the source of truth for Amitava Shee's professional profile, 
 
 ## Project structure
 
-- `README.md`: GitHub Pages home page and web resume.
+- `README.md`: Markdown source for the generated GitHub Pages home page and web resume.
 - `Amitava Shee.md`: canonical professional-profile content for all publishing channels.
 - `linkedin/linkedin-profile.md`: copy-ready LinkedIn presentation derived from the canonical profile.
 - `linkedin/update-checklist.md`: manual LinkedIn synchronization and verification workflow.
-- `_config.yml`: Jekyll and GitHub Pages configuration.
-- `_layouts/default.html`: custom page layout.
+- `index.html`: generated static GitHub Pages home page. Regenerate it with `bin/gen-site.sh`; do not hand-edit it.
+- `templates/site.html`: Pandoc HTML template for the static site.
+- `site.css`: screen styling for the static site.
 - `markdown.css`: print/PDF styling.
 - `pdf/resume-header.tex`: compact Pandoc/XeLaTeX styling for the generated resume PDF.
-- `bin/s.sh`: runs the local Jekyll development server.
+- `bin/gen-site.sh`: generates `index.html` from `README.md`.
+- `bin/s.sh`: generates the static site and serves it locally with Python's HTTP server.
 - `bin/gen-pdf.sh`: generates `Amitava Shee Resume.pdf` from the canonical profile.
 - `bin/ren-readme-pdf.sh`: legacy helper for manually exported `README.pdf` files.
 
@@ -33,17 +35,23 @@ This repository is the source of truth for Amitava Shee's professional profile, 
 - Keep changes focused; avoid unrelated rewrites of resume language or site styling.
 - Treat all professional-profile content as public-facing. Check spelling, Markdown rendering, date consistency, and punctuation before finishing.
 - Never add private or sensitive information that is not already present in the user-designated source.
-- Do not commit generated artifacts unless the task specifically requests them.
+- Commit generated `index.html` after site changes because GitHub Pages serves it directly. Do not commit generated PDFs unless the task specifically requests them.
 
 ## Local verification
 
-Install dependencies with `bundle install` when needed, then preview the site with:
+Generate the static site with:
+
+```sh
+bin/gen-site.sh
+```
+
+Preview the generated site with:
 
 ```sh
 bin/s.sh
 ```
 
-For content-only changes, also review the Markdown diff and confirm that links and Liquid expressions such as `{{site_url}}` remain intact.
+For content-only changes, also review the Markdown diff, regenerate `index.html`, and confirm that links are rendered correctly. `bin/gen-site.sh` replaces `{{site_url}}` placeholders at build time using `CNAME` or the `SITE_URL` environment variable.
 
 Generate the resume PDF from the repository root with:
 

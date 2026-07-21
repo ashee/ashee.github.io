@@ -1,3 +1,12 @@
 #!/usr/bin/env bash
 
-bundle exec jekyll serve --port 4000 --open-url --livereload --livereload-port 4001 --trace
+set -eu
+
+script_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+repo_root=$(CDPATH= cd -- "$script_dir/.." && pwd)
+port=${PORT:-4000}
+
+"$script_dir/gen-site.sh"
+
+cd "$repo_root"
+python3 -m http.server "$port"
