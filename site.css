@@ -15,13 +15,6 @@ body {
   margin: 48px auto 28px;
 }
 
-.site-footer {
-  box-sizing: border-box;
-  width: min(860px, calc(100% - 40px));
-  margin: 0 auto 48px;
-  color: #6a737d;
-}
-
 a {
   color: #0366d6;
   text-decoration: none;
@@ -61,8 +54,7 @@ strong {
 }
 
 @media (max-width: 620px) {
-  .page,
-  .site-footer {
+  .page {
     width: min(100% - 28px, 860px);
   }
 
@@ -79,9 +71,5 @@ strong {
   .page {
     width: 100%;
     margin: 0;
-  }
-
-  .site-footer {
-    display: none;
   }
 }
