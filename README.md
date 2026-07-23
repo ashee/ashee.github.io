@@ -1,88 +1,100 @@
 # Amitava Shee
 
-_CTO - Data Science & Architecture, Fintech, Ann Arbor, Michigan, USA_
+_Consultant, Services & Platform Engineering at SiriusXM | Acting Director of Personalization_
 
-<a class="bi bi-envelope" href="mailto:amitava.shee@gmail.com"> Email</a> / <a class="bi bi-globe" href="{{site_url}}"> Website</a> / <a class="bi bi-linkedin" href="https://www.linkedin.com/in/amitavashee/"> LinkedIn</a> / <a class="bi bi-github" href="https://github.com/ashee/"> Github</a> / <a class="bi bi-twitter" href="https://twitter.com/amitavashee/"> Twitter</a> / <a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee Resume.pdf"> Resume</a>
+<a class="bi bi-envelope" href="mailto:amitava.shee@gmail.com"> Email</a> / <a class="bi bi-telephone" href="tel:+16463877200"> Phone</a> / <a class="bi bi-globe" href="{{site_url}}"> Website</a> / <a class="bi bi-linkedin" href="https://www.linkedin.com/in/amitavashee/"> LinkedIn</a> / <a class="bi bi-github" href="https://github.com/ashee/"> GitHub</a> / <a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee Resume.pdf"> Resume</a>
+
+Ann Arbor, MI
 
 ## Summary
-Technology leader with a broad and deep skillset in agile architecture, development and operating internet scale distributed applications
+
+Results-driven technology leader with 15+ years of experience specializing in building and scaling cloud-native recommendation and search engines at internet scale. Proven track record of delivering high-impact platforms that accelerate time-to-market and achieve significant cost savings. Experienced in leading multidisciplinary teams across AI, software engineering, data science, and platform engineering for global brands in music streaming, fintech, and healthcare.
 
 ## Experience
 
-**Chief Technology Officer** @ [reThought Insurance](https://www.rethoughtinsurance.com/) _(May 2021 - Mar 2022)_
+**Consultant, Services & Platform Engineering | SiriusXM** | New York, NY | Nov 2022 - Present
 
-Build, operationalize and support reThought Flood Insurance Underwriting platform built on 
-- Rust, [React/Typescript](https://reactjs.org/) and [FoundationDB](https://www.foundationdb.org/) that runs on self-hosted [Kubernetes](https://github.com/kubernetes-sigs/kubespray)
-- Integrates with 3rd party API services such as [HazardHub](https://hazardhub.com/), [InsCipher](https://www.inscipher.com/) and [insurdata](https://www.insurdata.io/) among others
-- Hosting and integration with Catastrophe Modeling Risk Analytics platforms - [AIR Touchstone](https://www.air-worldwide.com/software-solutions/Touchstone/), [KatRisk SpatialKat](https://www.katrisk.com/spatialkat) and [KatRisk SoloKat](https://www.katrisk.com/solokat)
-- Oversee integration with satellite data provider [Hydronos Labs](https://hydronoslabs.com/)
-- Enhanced risk scoring metrics with flood exposure data from [National Flood Insurance Program (NFIP)](https://www.fema.gov/flood-insurance)
-- Data Center infrastructure that integrates with multi cloud solutions in [Azure](https://azure.microsoft.com/en-us/), [AWS](https://aws.amazon.com/) and [Wasabi](https://wasabi.com/)
-- Run engineering teams of Software Development (9), Data Science (3) and Devops (3)
+- As acting Director of Personalization, engineered and launched a new recommendation engine for 30M consumers on a new streaming platform, achieving a market launch in a record 13 months.
+- Optimized cloud costs by 68%, reducing monthly spend from $1.57M to $507K without impacting system performance.
+- Led a 20-person engineering team to build and operate a machine learning platform for online and batch inference, processing over 1B records daily at scale.
+- Architected a resilient, fault-tolerant platform that enabled rapid innovation and delivered new differentiated product offerings.
+- Executing the delivery of MCP-connected apps for ChatGPT, Claude, and Gemini after successful proofs of concept, including AI/LLM and retrieval-augmented generation implementations using PostgreSQL, pgvector, and Neptune.
 
-**Principal Engineer, AI & Machine Learning** @ [Ithaka](https://www.ithaka.org/) _(Jan 2017 - May 2021)_
+**Chief Technology Officer | reThought Insurance** | Broomfield, CO | May 2021 - Mar 2022
 
-Drive product growth by implementing advanced search features within the Ithaka online platform that include its flagship product [JSTOR](https://www.jstor.org/) among others
-- Machine Learning applications to improve search results such as _Eigen Search_ in collaboration with [University of Washington, Seattle](https://www.washington.edu/)
-- Developed an [A/B testing](https://en.wikipedia.org/wiki/A/B_testing) framework by implementing a statistical [hypothesis testing](https://towardsdatascience.com/hypothesis-testing-for-a-b-test-an-application-of-inferential-statistics-5ae2e779ff04) framework
-- Implemented data mining and analytics on clickstream data using [Data Bricks on AWS](https://databricks.com/product/aws)
-- Implemented distributed search using [Apache Solr](https://solr.apache.org/) 8.10 at an internet scale by leveraging Kubernetes ([AWS EKS](https://aws.amazon.com/eks/)) and many other AWS Cloud services. Replaced previous version that ran on [Data Stax](https://www.datastax.com/products/datastax-enterprise/dse-search) and [Apache Cassandra](https://docs.datastax.com/en/landing_page/doc/landing_page/cassandra.html#CassandradocumentationincludedwithDataStaxEnterprise) resulting in significant cost savings
-- Developed a search API within a [microservice architecture](https://martinfowler.com/articles/microservices.html). Used [Java 8](https://www.oracle.com/java/technologies/java8.html) and [Spring Boot React](https://spring.io/reactive) in a team of 6 engineers
+- Led engineering teams across Software Development (9), Data Science (3), and DevOps (3) to build, operationalize, and support a new flood insurance underwriting platform.
+- Designed and implemented a cloud-native platform on a self-hosted Kubernetes cluster, integrating with multiple third-party API services and risk analytics platforms.
+- Enhanced risk scoring metrics by integrating flood exposure data from the National Flood Insurance Program (NFIP) and satellite data providers.
 
-**Architect, Research Program** @ [University of Michigan Medical School](https://www.uofmhealth.org/) _(Nov 2013 - Jan 2017)_
-- Delivered MedBus – a SOA based Data Services platform that integrates large-scale health data using [JBoss Data Virtualization](https://developers.redhat.com/products/datavirt/overview)
-- Built a case for an API management solution. Helped bring IBM’s API Management and Data Power products to the enterprise
-- Co-lead the Data & Infrastructure Committee in a national healthcare research network called PCORNet. Delivered over 2M patients in a record 6 months
-- Contributing to the president’s $100M Data Science Initiative that brings together leaders in Data Science and Machine Learning
-- Helped develop a DevOps group and contributed foundational Ansible code
+**Principal Engineer | AI & Machine Learning** | Ithaka | Ann Arbor, MI | Jan 2017 - May 2021
 
-**Enterprise Architect, Office of CIO** @ [University of Michigan Health System](https://www.uofmhealth.org/) _(Mar 2011 - Nov 2013)_
-- Established an Enterprise Architecture program based on [TOGAF](https://www.opengroup.org/togaf)
-- Engaged consulting firms [5AM](https://www.5amsolutions.com/) and [Quintiles](https://www.iqvia.com/) to develop a Healthcare Research IT Strategy & Roadmap
-- Evaluate and implement cloud vendor (AWS)
+- Drove product growth by implementing advanced search features, including a Learning to Boost (L2B) ML model to dynamically generate search engine parameters.
+- Developed a continuous MLOps pipeline to data mine clickstream data, train models, and deploy them to production, accelerating the release cycle.
+- Led the migration of distributed search from DataStax to Apache Solr on AWS EKS, resulting in significant cost savings and improved scalability at internet scale.
+- Implemented a statistical A/B testing framework to validate product changes and guide data-driven decisions.
 
-**Information Architect, Enabling Technology** @ [University of Michigan Medical School](https://medicine.umich.edu/medschool/home) _(2009 - 2011)_
-- Led an applied research program (ENCORE) in medical education to support the Associate Dean's innovation program
-- Developed rapid applications in [Ruby on Rails](https://rubyonrails.org/) with turnaround times in weeks to support educational research
-- Used Google analytics to present and visualize key insights
+**Architect, Research Program | University of Michigan Medical School** | Ann Arbor, MI | Nov 2013 - Jan 2017
 
-**Manager, Enterprise Architecture** @ [University of Michigan Health System](https://www.uofmhealth.org/) _(Jun 2007 - Jan 2009)_
-- Led development of clinical application architecture standards and their integration using [IBM MQ/Websphere](https://www.ibm.com/products/mq)
-- Identified projects, created and presented proposals and acquired funding for capital projects
-- Key stakeholder in the selection of [Epic healthcare system](https://www.epic.com/)
-- Other notable solutions include [EMPI](https://portal.ct.gov/DSS/ITS/DSS-HealthIT/Business-Intelligence-and-DSS-HealthIT/Enterprise-Master-Person-Index), [RxNorm](https://www.nlm.nih.gov/research/umls/rxnorm/index.html), [IMO](https://www.imohealth.com/) and [Apelon](https://www.apelon.com/)
+- Delivered MedBus, a SOA-based data services platform that integrated large-scale health data for research, supporting a national healthcare research network.
+- Secured approval for an API management solution by building a strong business case and helping bring IBM's products to the enterprise.
+- Contributed to the president's $100M Data Science Initiative and co-led a national committee that successfully delivered over 2M patient records.
 
-**Architect, Banking & Financial Services** @ [Cognizant Technology Solutions](https://www.cognizant.com/nl/en/banking) _(2004 - 2007)_
-- Integrated Pitney Bowes (mainframe) with a J2EE/WebLogic application for managing electronic bills online for GMAC.
-- Developed BizTalk modules to integrate PeopleSoft General Ledger, Loan Origination Systems (QRM, Focus) and legacy sales system at Indymac bank.
-- Developed an Enterprise Architecture based on Zachman Framework (ZF) for SallieMae. 
-- Re-implemented the DNN based portal in SharePoint with help from Microsoft consulting at SallieMae. 
-- Implemented a DotNetNuke (DNN) based portal for managing Borrowers, Students, Schools and Guarantors at SallieMae.
+**Enterprise Architect, Office of CIO | University of Michigan Health System** | Ann Arbor, MI | Mar 2011 - Nov 2013
 
-**Software Architect** @ [CONTEXTWEB](https://www.crunchbase.com/organization/contextweb) _(2002 - 2004)_
-- Developed an Asset Backed Securities (ABS) online platform for the securities group at [Royal Bank of Canada](https://www.rbccm.com/en/) in an early stage startup
+- Established an Enterprise Architecture program based on TOGAF, resulting in the development of a Healthcare Research IT Strategy and Roadmap.
+- Evaluated and implemented the organization's first cloud vendor (AWS), paving the way for future cloud adoption.
 
-**Software Architect** @ [Techna International](https://www.crunchbase.com/organization/techna) _(1999 - 2002)_
-- Blue Martini (J2EE/Weblogic) consultant at Stanford School of Business. Implement single-sign-on (SSO) using Oblix
-- Websphere consultant in an IBM team - helped Galileo transition from mainframe to the web
-- Developed a J2EE/Weblogic based B2B SaaS platform for Gymboree franchises
+**Information Architect, Enabling Technology | University of Michigan Medical School** | Ann Arbor, MI | 2009 - 2011
 
+- Led an applied research program (ENCORE) for medical education, developing rapid applications in Ruby on Rails to support educational research initiatives.
 
-**Senior Software Engineer** @ [CA Technologies](https://company.monsterindia.com/catcgin/) _(1999 - 1999)_
-- Developed a C++ based Microsoft COM/DCOM integration module in an object database product. Includes SNMP agents and MIB's for this module
+**Manager, Enterprise Architecture | University of Michigan Health System** | Ann Arbor, MI | Jun 2007 - Jan 2009
 
-**Senior Software Engineer** @ [Tata Elxsi](https://www.tataelxsi.com/) _(1995 - 1997)_
-- Provided Electronic Data Interchange (EDI) consulting services for GE Information Services (GEIS)
+- Led the development of clinical application architecture standards, successfully acquiring funding for capital projects through proposal creation and presentation.
+- Served as a key stakeholder in the selection of the Epic healthcare system.
 
-**Management Trainee** @ [Fujitsu ICIM](http://www.source2update.com/Company-History/Fujitsu-ICIM-FUJICI.html) _(1994 - 1995)_
-- Developed system code in Unix and C/C++
+**Architect, Banking & Financial Services | Cognizant Technology Solutions** | Indianapolis, IN | 2004 - 2007
+
+- Partnered with Microsoft to implement a SharePoint-based consumer portal that integrates backend mainframe systems to present a unified view.
+- Used BizTalk to integrate core banking systems, including PeopleSoft General Ledger and Loan Origination Systems.
+
+**Software Architect | CONTEXTWEB** | New York, NY | 2002 - 2004
+
+- Developed an Asset Backed Securities (ABS) online platform for the securities group at Royal Bank of Canada.
+
+**Software Architect | Techna International** | Sunnyvale, CA | 1999 - 2002
+
+- Acted as a consultant for IBM and Stanford School of Business, helping Galileo transition from mainframe to the web and implementing single sign-on (SSO) solutions.
+
+**Senior Software Engineer | CA Technologies** | Kolkata, India | 1999 - 1999
+
+- Developed a C++-based Microsoft COM/DCOM integration module in an object database product.
+
+**Senior Software Engineer | Tata Elxsi** | Rockville, MD | 1995 - 1997
+
+- Provided Electronic Data Interchange (EDI) consulting services for GE Information Services.
+
+**Management Trainee | Fujitsu ICIM** | Pune, India | 1994 - 1995
+
+- Developed system code in Unix and C/C++.
+
+## Skills
+
+**Engineering Leadership:** Led teams of 20+ engineers to deliver a new streaming platform in a record 13 months, enabling business innovation at scale.
+
+**Data & AI Platforms:** Built and scaled recommendation and search engines, and led the development of MLOps pipelines for continuous model delivery.
+
+**Cloud & Architecture:** Architected and modernized cloud-native platforms on AWS and Kubernetes, driving significant cost savings and operational efficiency.
+
+**Product Innovation:** Drove product growth by implementing advanced search features and building applications with rapid turnaround times.
+
+**Enterprise Strategy:** Established an Enterprise Architecture program and served as a key stakeholder in the selection of a new healthcare system.
 
 ## Education
 
-**Bachelor of Engineering** in Computer Science
-[Birla Institute of Technology](https://www.bitmesra.ac.in) - BIT Mesra, Ranchi, India _(1990 - 1994)_
+Birla Institute of Technology | B.Eng. Computer Science
 
 ## Certifications
-MOR Leaders Program  _(May 2016)_
 
-Scrum Alliance, License: 000339704  _(May 2016)_
+- MOR Leaders Program | 2016
+- Scrum Alliance, License: 000339704 | 2016
