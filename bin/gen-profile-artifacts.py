@@ -13,8 +13,8 @@ PUB = REPO_ROOT / "pub"
 README = PUB / "README.md"
 LINKEDIN = PUB / "linkedin-profile.md"
 RESUME = PUB / "Amitava Shee Resume.md"
-RESUME_PDF = PUB / "Amitava Shee Resume.pdf"
-CHRONOLOGICAL_RESUME_PDF = PUB / "Amitava Shee Resume Chronological.pdf"
+RESUME_PDF = PUB / "Amitava Shee.pdf"
+CHRONOLOGICAL_RESUME_PDF = PUB / "Amitava Shee Chronological.pdf"
 CNAME = REPO_ROOT / "CNAME"
 
 
@@ -159,7 +159,7 @@ def build_readme(meta: dict[str, str], body: str) -> str:
         '<a class="bi bi-globe" href="{{site_url}}"> Website</a> / '
         f'<a class="bi bi-linkedin" href="{linkedin_url}"> LinkedIn</a> / '
         f'<a class="bi bi-github" href="{github_url}"> GitHub</a> / '
-        '<a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee Resume.pdf"> Resume</a>'
+        '<a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee.pdf"> Resume</a>'
     )
 
     return "\n\n".join(

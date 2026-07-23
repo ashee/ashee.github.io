@@ -1,2 +1,2 @@
 #!/bin/sh
-mv README.pdf Amitava\ Shee\ Resume.pdf
+mv README.pdf Amitava\ Shee.pdf

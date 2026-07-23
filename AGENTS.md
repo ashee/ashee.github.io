@@ -23,8 +23,8 @@ This repository is the source of truth for Amitava Shee's professional profile, 
 - `pub/index.html`: generated static site home page.
 - `pub/linkedin-profile.md`: generated copy-ready LinkedIn presentation derived from the canonical profile.
 - `pub/Amitava Shee Resume.md`: generated concise resume source derived from the canonical profile.
-- `pub/Amitava Shee Resume.pdf`: generated default concise resume PDF.
-- `pub/Amitava Shee Resume Chronological.pdf`: generated full chronological resume PDF.
+- `pub/Amitava Shee.pdf`: generated default concise resume PDF.
+- `pub/Amitava Shee Chronological.pdf`: generated full chronological resume PDF.
 - `pub/assets/site.css` and `pub/assets/markdown.css`: copied static assets for the generated site.
 - `linkedin/update-checklist.md`: manual LinkedIn synchronization and verification workflow.
 - `templates/site.html`: Pandoc HTML template for the static site.
@@ -34,7 +34,7 @@ This repository is the source of truth for Amitava Shee's professional profile, 
 - `bin/gen-profile-artifacts.py`: generates all files under `pub/` from `profile.md`.
 - `bin/gen-site.sh`: low-level helper that generates `pub/index.html` from `pub/README.md` by default.
 - `bin/s.sh`: generates the static site and serves it locally with Python's HTTP server.
-- `bin/gen-pdf.sh`: generates `pub/Amitava Shee Resume Chronological.pdf` from `profile.md` by default.
+- `bin/gen-pdf.sh`: generates `pub/Amitava Shee Chronological.pdf` from `profile.md` by default.
 - `bin/ren-readme-pdf.sh`: legacy helper for manually exported `README.pdf` files.
 
 ## Working conventions
@@ -54,7 +54,7 @@ Generate all profile artifacts with:
 bin/gen-profile-artifacts.py
 ```
 
-This updates `pub/README.md`, `pub/linkedin-profile.md`, `pub/index.html`, `pub/Amitava Shee Resume.md`, `pub/Amitava Shee Resume.pdf`, and `pub/Amitava Shee Resume Chronological.pdf` from `profile.md`.
+This updates `pub/README.md`, `pub/linkedin-profile.md`, `pub/index.html`, `pub/Amitava Shee Resume.md`, `pub/Amitava Shee.pdf`, and `pub/Amitava Shee Chronological.pdf` from `profile.md`.
 
 Generate only the static site with:
 

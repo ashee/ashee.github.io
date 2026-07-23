@@ -6,7 +6,7 @@ script_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 repo_root=$(CDPATH= cd -- "$script_dir/.." && pwd)
 
 source_file=${1:-"$repo_root/profile.md"}
-output_file=${2:-"$repo_root/pub/Amitava Shee Resume Chronological.pdf"}
+output_file=${2:-"$repo_root/pub/Amitava Shee Chronological.pdf"}
 style_file="$repo_root/pdf/resume-header.tex"
 show_rules=${RESUME_PDF_RULES:-0}
 rules_header_arg=

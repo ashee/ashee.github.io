@@ -9,7 +9,9 @@ pub_dir="$repo_root/pub"
 legacy_artifacts=(
   "$repo_root/README.md"
   "$repo_root/index.html"
+  "$repo_root/Amitava Shee.pdf"
   "$repo_root/Amitava Shee Resume.pdf"
+  "$repo_root/Amitava Shee Chronological.pdf"
   "$repo_root/linkedin/linkedin-profile.md"
 )
 
@@ -20,8 +22,8 @@ expected_artifacts=(
   "$pub_dir/index.html"
   "$pub_dir/linkedin-profile.md"
   "$pub_dir/Amitava Shee Resume.md"
-  "$pub_dir/Amitava Shee Resume.pdf"
-  "$pub_dir/Amitava Shee Resume Chronological.pdf"
+  "$pub_dir/Amitava Shee.pdf"
+  "$pub_dir/Amitava Shee Chronological.pdf"
   "$pub_dir/assets/site.css"
   "$pub_dir/assets/markdown.css"
 )
@@ -58,8 +60,8 @@ if ! grep -q 'href="assets/markdown.css"' "$pub_dir/index.html"; then
 fi
 
 if command -v pdfinfo >/dev/null 2>&1; then
-  resume_pages=$(pdf_pages "$pub_dir/Amitava Shee Resume.pdf")
-  chronological_pages=$(pdf_pages "$pub_dir/Amitava Shee Resume Chronological.pdf")
+  resume_pages=$(pdf_pages "$pub_dir/Amitava Shee.pdf")
+  chronological_pages=$(pdf_pages "$pub_dir/Amitava Shee Chronological.pdf")
 
   if [ "$resume_pages" != "1" ]; then
     echo "error: expected default resume PDF to be 1 page, got $resume_pages" >&2
