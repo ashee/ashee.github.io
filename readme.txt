@@ -1,27 +1,26 @@
 # Github pages Resume
 
-## Generate PDF
-The resume PDF is generated from the canonical `Amitava Shee.md` file with Pandoc and XeLaTeX:
+## Generate profile artifacts
+Profile facts live in `profile.md`. Generate the website Markdown, LinkedIn profile Markdown, static site, and resume PDF from that file with:
 
 ```sh
-bin/gen-pdf.sh
+bin/gen-profile-artifacts.py
 ```
 
-This writes `Amitava Shee Resume.pdf` in the repository root. Install the required tools on macOS with:
+This writes `README.md`, `linkedin/linkedin-profile.md`, `index.html`, and `Amitava Shee Resume.pdf`. Install the required tools on macOS with:
 
 ```sh
 brew install pandoc
 brew install --cask mactex-no-gui
 ```
 
-The script also accepts optional source and output paths:
+To generate only the resume PDF, run:
 
 ```sh
-bin/gen-pdf.sh path/to/source.md path/to/output.pdf
+bin/gen-pdf.sh
 ```
 
 ## Website
 This repo will automatically generate the site at https://ashee.github.io. 
 A DNS CNAME entry has been setup in my AWS Route53 console to https://www.amitavashee.com
 Please make sure to checkout GH pages settings at https://github.com/ashee/ashee.github.io/settings/pages
-

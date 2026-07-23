@@ -1,3 +1,5 @@
+<!-- Generated from profile.md by bin/gen-profile-artifacts.py. Do not edit facts here. -->
+
 # Amitava Shee
 
 _Consultant, Services & Platform Engineering at SiriusXM | Acting Director of Personalization_
@@ -12,7 +14,7 @@ Results-driven technology leader with 15+ years of experience specializing in bu
 
 ## Experience
 
-**Consultant, Services & Platform Engineering | SiriusXM** | New York, NY | Nov 2022 - Present
+**Consultant, Services & Platform Engineering** | SiriusXM | New York, NY | Nov 2022 - Present
 
 - As acting Director of Personalization, engineered and launched a new recommendation engine for 30M consumers on a new streaming platform, achieving a market launch in a record 13 months.
 - Optimized cloud costs by 68%, reducing monthly spend from $1.57M to $507K without impacting system performance.
@@ -20,7 +22,7 @@ Results-driven technology leader with 15+ years of experience specializing in bu
 - Architected a resilient, fault-tolerant platform that enabled rapid innovation and delivered new differentiated product offerings.
 - Executing the delivery of MCP-connected apps for ChatGPT, Claude, and Gemini after successful proofs of concept, including AI/LLM and retrieval-augmented generation implementations using PostgreSQL, pgvector, and Neptune.
 
-**Chief Technology Officer | reThought Insurance** | Broomfield, CO | May 2021 - Mar 2022
+**Chief Technology Officer** | reThought Insurance | Broomfield, CO | May 2021 - Mar 2022
 
 - Led engineering teams across Software Development (9), Data Science (3), and DevOps (3) to build, operationalize, and support a new flood insurance underwriting platform.
 - Designed and implemented a cloud-native platform on a self-hosted Kubernetes cluster, integrating with multiple third-party API services and risk analytics platforms.
@@ -33,48 +35,48 @@ Results-driven technology leader with 15+ years of experience specializing in bu
 - Led the migration of distributed search from DataStax to Apache Solr on AWS EKS, resulting in significant cost savings and improved scalability at internet scale.
 - Implemented a statistical A/B testing framework to validate product changes and guide data-driven decisions.
 
-**Architect, Research Program | University of Michigan Medical School** | Ann Arbor, MI | Nov 2013 - Jan 2017
+**Architect, Research Program** | University of Michigan Medical School | Ann Arbor, MI | Nov 2013 - Jan 2017
 
 - Delivered MedBus, a SOA-based data services platform that integrated large-scale health data for research, supporting a national healthcare research network.
 - Secured approval for an API management solution by building a strong business case and helping bring IBM's products to the enterprise.
 - Contributed to the president's $100M Data Science Initiative and co-led a national committee that successfully delivered over 2M patient records.
 
-**Enterprise Architect, Office of CIO | University of Michigan Health System** | Ann Arbor, MI | Mar 2011 - Nov 2013
+**Enterprise Architect, Office of CIO** | University of Michigan Health System | Ann Arbor, MI | Mar 2011 - Nov 2013
 
 - Established an Enterprise Architecture program based on TOGAF, resulting in the development of a Healthcare Research IT Strategy and Roadmap.
 - Evaluated and implemented the organization's first cloud vendor (AWS), paving the way for future cloud adoption.
 
-**Information Architect, Enabling Technology | University of Michigan Medical School** | Ann Arbor, MI | 2009 - 2011
+**Information Architect, Enabling Technology** | University of Michigan Medical School | Ann Arbor, MI | 2009 - 2011
 
 - Led an applied research program (ENCORE) for medical education, developing rapid applications in Ruby on Rails to support educational research initiatives.
 
-**Manager, Enterprise Architecture | University of Michigan Health System** | Ann Arbor, MI | Jun 2007 - Jan 2009
+**Manager, Enterprise Architecture** | University of Michigan Health System | Ann Arbor, MI | Jun 2007 - Jan 2009
 
 - Led the development of clinical application architecture standards, successfully acquiring funding for capital projects through proposal creation and presentation.
 - Served as a key stakeholder in the selection of the Epic healthcare system.
 
-**Architect, Banking & Financial Services | Cognizant Technology Solutions** | Indianapolis, IN | 2004 - 2007
+**Architect, Banking & Financial Services** | Cognizant Technology Solutions | Indianapolis, IN | 2004 - 2007
 
 - Partnered with Microsoft to implement a SharePoint-based consumer portal that integrates backend mainframe systems to present a unified view.
 - Used BizTalk to integrate core banking systems, including PeopleSoft General Ledger and Loan Origination Systems.
 
-**Software Architect | CONTEXTWEB** | New York, NY | 2002 - 2004
+**Software Architect** | CONTEXTWEB | New York, NY | 2002 - 2004
 
 - Developed an Asset Backed Securities (ABS) online platform for the securities group at Royal Bank of Canada.
 
-**Software Architect | Techna International** | Sunnyvale, CA | 1999 - 2002
+**Software Architect** | Techna International | Sunnyvale, CA | 1999 - 2002
 
 - Acted as a consultant for IBM and Stanford School of Business, helping Galileo transition from mainframe to the web and implementing single sign-on (SSO) solutions.
 
-**Senior Software Engineer | CA Technologies** | Kolkata, India | 1999 - 1999
+**Senior Software Engineer** | CA Technologies | Kolkata, India | 1999 - 1999
 
 - Developed a C++-based Microsoft COM/DCOM integration module in an object database product.
 
-**Senior Software Engineer | Tata Elxsi** | Rockville, MD | 1995 - 1997
+**Senior Software Engineer** | Tata Elxsi | Rockville, MD | 1995 - 1997
 
 - Provided Electronic Data Interchange (EDI) consulting services for GE Information Services.
 
-**Management Trainee | Fujitsu ICIM** | Pune, India | 1994 - 1995
+**Management Trainee** | Fujitsu ICIM | Pune, India | 1994 - 1995
 
 - Developed system code in Unix and C/C++.
 
