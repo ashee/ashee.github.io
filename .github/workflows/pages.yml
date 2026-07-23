@@ -16,26 +16,32 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Install artifact generation dependencies
+        shell: bash
         run: |
+          set -euxo pipefail
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
             fonts-lato \
             pandoc \
+            poppler-utils \
+            texlive-fonts-recommended \
             texlive-latex-extra \
             texlive-xetex
+          fc-cache -f
 
-      - name: Generate site and PDFs
-        run: bin/gen-profile-artifacts.py
+      - name: Generate and validate site artifacts
+        shell: bash
+        run: |
+          set -euxo pipefail
+          bin/validate-artifacts.sh
+          find pub -maxdepth 2 -type f -print | sort
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
@@ -45,6 +51,13 @@ jobs:
         with:
           path: pub
 
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
