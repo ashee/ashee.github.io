@@ -4,8 +4,6 @@
 
 Ann Arbor, MI | <amitava.shee@gmail.com> | (646) 387-7200 | [www.amitavashee.com](https://www.amitavashee.com) | [linkedin.com/in/amitavashee](https://www.linkedin.com/in/amitavashee/)
 
-<a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee.pdf"> Resume</a> / <a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee Chronological.pdf"> Resume Chronological</a>
-
 ## Engineering Leadership | AI, Personalization, Search, Data & Platform Engineering
 
 15+ years leading AI, ML, search, recommendation, big data, cloud, and platform engineering teams across media, fintech, healthcare, education, and financial services. Built internet-scale personalization platforms, modernized search, Spark, data lake, and MLOps systems, led engineering organizations, and delivered measurable cost, scale, and product impact.

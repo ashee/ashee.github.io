@@ -268,7 +268,7 @@ def build_one_pager(meta: dict[str, str], body: str) -> str:
         "",
         contact,
         "",
-        "## Engineering Leadership | AI, Personalization, Search & Big Data Platform Engineering",
+        "## Engineering Leadership | AI, Personalization, Search, Data & Platform Engineering",
         "",
         "15+ years leading AI, ML, search, recommendation, big data, cloud, and platform engineering teams across media, fintech, healthcare, education, and financial services. Built internet-scale personalization platforms, modernized search, Spark, data lake, and MLOps systems, led engineering organizations, and delivered measurable cost, scale, and product impact.",
         "",
