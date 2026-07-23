@@ -314,7 +314,7 @@ def build_one_pager(meta: dict[str, str], body: str) -> str:
         [
             "## Earlier Experience Summary",
             "",
-            f"Held architecture and engineering leadership roles at {earlier_companies}. Work included healthcare research platforms, enterprise architecture, cloud adoption, Epic selection, banking integrations, securities platforms, SSO, mainframe modernization, EDI, and C/C++ systems engineering.",
+            f"Held architecture and engineering leadership roles at {earlier_companies}. Work included healthcare research platforms, enterprise architecture, cloud adoption, Epic implementation, banking integrations, securities platforms, SSO, mainframe modernization, EDI, and C/C++ systems engineering.",
             "",
             "## Core Skills",
             "",

@@ -45,7 +45,7 @@ Jan 2017 - May 2021 | Ann Arbor, MI
 
 ## Earlier Experience Summary
 
-Held architecture and engineering leadership roles at University of Michigan (Health System and Medical School), Cognizant Technology Solutions, CONTEXTWEB, Techna International, CA Technologies, Tata Elxsi, Fujitsu ICIM. Work included healthcare research platforms, enterprise architecture, cloud adoption, Epic selection, banking integrations, securities platforms, SSO, mainframe modernization, EDI, and C/C++ systems engineering.
+Held architecture and engineering leadership roles at University of Michigan (Health System and Medical School), Cognizant Technology Solutions, CONTEXTWEB, Techna International, CA Technologies, Tata Elxsi, Fujitsu ICIM. Work included healthcare research platforms, enterprise architecture, cloud adoption, Epic implementation, banking integrations, securities platforms, SSO, mainframe modernization, EDI, and C/C++ systems engineering.
 
 ## Core Skills
 
