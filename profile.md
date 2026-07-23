@@ -1,12 +1,23 @@
-<!-- Generated from profile.md by bin/gen-profile-artifacts.py. Do not edit facts here. -->
+---
+website_headline: Consultant, Services & Platform Engineering at SiriusXM | Acting Director of Personalization
+linkedin_headline: Technology Leader | AI, Recommendation, Search & ML Platforms | Cloud-Native Architecture | Engineering Leadership
+linkedin_location: Ann Arbor, Michigan, United States
+linkedin_about: |
+  Technology leader with 15+ years of experience building and scaling cloud-native recommendation and search engines at internet scale. I lead multidisciplinary teams across AI, software engineering, data science, and platform engineering to turn complex technical challenges into resilient platforms and differentiated products.
+
+  At SiriusXM, as acting Director of Personalization, I helped launch a recommendation engine serving 30 million consumers on a new streaming platform in 13 months. I led a 20-person engineering team in building and operating an ML platform for online and batch inference that processes more than 1 billion records daily, and reduced monthly cloud spend by 68%, from $1.57 million to $507,000, without affecting system performance. I am now executing the delivery of MCP-connected apps for ChatGPT, Claude, and Gemini, building on successful proofs of concept and implementing AI/LLM and retrieval-augmented generation with PostgreSQL, pgvector, and Neptune.
+
+  My experience spans music streaming, fintech, healthcare, education, and financial services. I have built MLOps pipelines, modernized distributed search, designed cloud-native platforms on AWS and Kubernetes, established an enterprise architecture practice, and led engineering organizations through major product and platform transformations.
+
+  Core areas: engineering leadership, AI and LLM platforms, recommendation and personalization, search, machine learning platforms, MLOps, retrieval-augmented generation, cloud architecture, Kubernetes, product innovation, and enterprise strategy.
+linkedin_skills: Engineering Leadership, Artificial Intelligence (AI), Recommendation Systems, Personalization, Large Language Models (LLM), Retrieval-Augmented Generation (RAG), Machine Learning, Machine Learning Operations (MLOps), Search Engines, Cloud Architecture, Amazon Web Services (AWS), Kubernetes, Platform Engineering, Model Context Protocol (MCP), PostgreSQL, Software Architecture, Distributed Systems, Data Science, Apache Solr, Enterprise Architecture
+github_url: https://github.com/ashee/
+linkedin_url: https://www.linkedin.com/in/amitavashee/
+---
 
 # Amitava Shee
 
-_Consultant, Services & Platform Engineering at SiriusXM | Acting Director of Personalization_
-
-<a class="bi bi-envelope" href="mailto:amitava.shee@gmail.com"> Email</a> / <a class="bi bi-telephone" href="tel:+16463877200"> Phone</a> / <a class="bi bi-globe" href="{{site_url}}"> Website</a> / <a class="bi bi-linkedin" href="https://www.linkedin.com/in/amitavashee/"> LinkedIn</a> / <a class="bi bi-github" href="https://github.com/ashee/"> GitHub</a> / <a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee Resume.pdf"> Resume</a>
-
-Ann Arbor, MI
+Ann Arbor, MI | <amitava.shee@gmail.com> | (646) 387-7200 | linkedin.com/in/amitavashee
 
 ## Summary
 
