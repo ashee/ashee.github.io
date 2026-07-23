@@ -147,11 +147,8 @@ def generated_notice() -> str:
 
 
 def build_readme(meta: dict[str, str], body: str) -> str:
-    name, _, location = name_and_contact(body)
-    headline = meta["website_headline"]
     linkedin_url = meta["linkedin_url"]
     github_url = meta["github_url"]
-    profile_body = body_from_summary(body)
 
     links = (
         '<a class="bi bi-envelope" href="mailto:amitava.shee@gmail.com"> Email</a> / '
@@ -163,16 +160,9 @@ def build_readme(meta: dict[str, str], body: str) -> str:
         '<a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee Chronological.pdf"> Resume Chronological</a>'
     )
 
-    return "\n\n".join(
-        [
-            generated_notice(),
-            f"# {name}",
-            f"_{headline}_",
-            links,
-            location,
-            profile_body,
-        ]
-    ) + "\n"
+    lines = build_one_pager(meta, body).splitlines()
+    lines[6:6] = [links, ""]
+    return "\n".join(lines) + "\n"
 
 
 def build_linkedin(meta: dict[str, str], body: str) -> str:
