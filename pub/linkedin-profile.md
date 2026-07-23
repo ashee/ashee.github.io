@@ -6,7 +6,7 @@
 
 ## Headline
 
-Technology Leader | AI, Recommendation, Search & ML Platforms | Cloud-Native Architecture | Engineering Leadership
+Engineering Leadership | AI, Recommendation, Search & ML Platforms | Cloud-Native Architecture
 
 ## Location
 

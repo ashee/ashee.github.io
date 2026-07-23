@@ -2,9 +2,9 @@
 
 # Amitava Shee
 
-Ann Arbor, MI | <amitava.shee@gmail.com> | (646) 387-7200 | linkedin.com/in/amitavashee
+Ann Arbor, MI | <amitava.shee@gmail.com> | (646) 387-7200 | [www.amitavashee.com](https://www.amitavashee.com) | [linkedin.com/in/amitavashee](https://www.linkedin.com/in/amitavashee/)
 
-## Technology Executive | AI, Personalization, Search & Platform Engineering
+## Engineering Leadership | AI, Personalization, Search & Platform Engineering
 
 15+ years leading AI, ML, search, recommendation, cloud, and platform engineering teams across media, fintech, healthcare, education, and financial services. Built internet-scale personalization platforms, modernized search and MLOps systems, led engineering organizations, and delivered measurable cost, scale, and product impact.
 

@@ -1,6 +1,6 @@
 ---
 website_headline: Consultant, Services & Platform Engineering at SiriusXM | Acting Director of Personalization
-linkedin_headline: Technology Leader | AI, Recommendation, Search & ML Platforms | Cloud-Native Architecture | Engineering Leadership
+linkedin_headline: Engineering Leadership | AI, Recommendation, Search & ML Platforms | Cloud-Native Architecture
 linkedin_location: Ann Arbor, Michigan, United States
 linkedin_about: |
   Technology leader with 15+ years of experience building and scaling cloud-native recommendation and search engines at internet scale. I lead multidisciplinary teams across AI, software engineering, data science, and platform engineering to turn complex technical challenges into resilient platforms and differentiated products.
@@ -17,7 +17,7 @@ linkedin_url: https://www.linkedin.com/in/amitavashee/
 
 # Amitava Shee
 
-Ann Arbor, MI | <amitava.shee@gmail.com> | (646) 387-7200 | linkedin.com/in/amitavashee
+Ann Arbor, MI | <amitava.shee@gmail.com> | (646) 387-7200 | [www.amitavashee.com](https://www.amitavashee.com) | [linkedin.com/in/amitavashee](https://www.linkedin.com/in/amitavashee/)
 
 ## Summary
 

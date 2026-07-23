@@ -2,11 +2,11 @@
 
 # Amitava Shee
 
-Ann Arbor, MI | <amitava.shee@gmail.com> | (646) 387-7200 | linkedin.com/in/amitavashee
+Ann Arbor, MI | <amitava.shee@gmail.com> | (646) 387-7200 | [www.amitavashee.com](https://www.amitavashee.com) | [linkedin.com/in/amitavashee](https://www.linkedin.com/in/amitavashee/)
 
-<a class="bi bi-envelope" href="mailto:amitava.shee@gmail.com"> Email</a> / <a class="bi bi-telephone" href="tel:+16463877200"> Phone</a> / <a class="bi bi-globe" href="{{site_url}}"> Website</a> / <a class="bi bi-linkedin" href="https://www.linkedin.com/in/amitavashee/"> LinkedIn</a> / <a class="bi bi-github" href="https://github.com/ashee/"> GitHub</a> / <a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee.pdf"> Resume</a> / <a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee Chronological.pdf"> Resume Chronological</a>
+<a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee.pdf"> Resume</a> / <a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee Chronological.pdf"> Resume Chronological</a>
 
-## Technology Executive | AI, Personalization, Search & Platform Engineering
+## Engineering Leadership | AI, Personalization, Search & Platform Engineering
 
 15+ years leading AI, ML, search, recommendation, cloud, and platform engineering teams across media, fintech, healthcare, education, and financial services. Built internet-scale personalization platforms, modernized search and MLOps systems, led engineering organizations, and delivered measurable cost, scale, and product impact.
 

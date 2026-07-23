@@ -147,15 +147,7 @@ def generated_notice() -> str:
 
 
 def build_readme(meta: dict[str, str], body: str) -> str:
-    linkedin_url = meta["linkedin_url"]
-    github_url = meta["github_url"]
-
     links = (
-        '<a class="bi bi-envelope" href="mailto:amitava.shee@gmail.com"> Email</a> / '
-        '<a class="bi bi-telephone" href="tel:+16463877200"> Phone</a> / '
-        '<a class="bi bi-globe" href="{{site_url}}"> Website</a> / '
-        f'<a class="bi bi-linkedin" href="{linkedin_url}"> LinkedIn</a> / '
-        f'<a class="bi bi-github" href="{github_url}"> GitHub</a> / '
         '<a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee.pdf"> Resume</a> / '
         '<a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee Chronological.pdf"> Resume Chronological</a>'
     )
@@ -276,7 +268,7 @@ def build_one_pager(meta: dict[str, str], body: str) -> str:
         "",
         contact,
         "",
-        "## Technology Executive | AI, Personalization, Search & Platform Engineering",
+        "## Engineering Leadership | AI, Personalization, Search & Platform Engineering",
         "",
         "15+ years leading AI, ML, search, recommendation, cloud, and platform engineering teams across media, fintech, healthcare, education, and financial services. Built internet-scale personalization platforms, modernized search and MLOps systems, led engineering organizations, and delivered measurable cost, scale, and product impact.",
         "",
