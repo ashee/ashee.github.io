@@ -268,17 +268,18 @@ def build_one_pager(meta: dict[str, str], body: str) -> str:
         "",
         contact,
         "",
-        "## Engineering Leadership | AI, Personalization, Search & Platform Engineering",
+        "## Engineering Leadership | AI, Personalization, Search & Big Data Platform Engineering",
         "",
-        "15+ years leading AI, ML, search, recommendation, cloud, and platform engineering teams across media, fintech, healthcare, education, and financial services. Built internet-scale personalization platforms, modernized search and MLOps systems, led engineering organizations, and delivered measurable cost, scale, and product impact.",
+        "15+ years leading AI, ML, search, recommendation, big data, cloud, and platform engineering teams across media, fintech, healthcare, education, and financial services. Built internet-scale personalization platforms, modernized search, Spark, data lake, and MLOps systems, led engineering organizations, and delivered measurable cost, scale, and product impact.",
         "",
         "## Selected Impact",
         "",
         "- Launched a SiriusXM recommendation engine for 30M consumers on a new streaming platform in 13 months.",
         "- Reduced monthly cloud spend 68%, from $1.57M to $507K, without impacting system performance.",
-        "- Led a 20-person engineering team operating ML platforms for online and batch inference processing over 1B records daily.",
+        "- Led a 20-person engineering team operating ML and big data platforms for online and batch inference processing over 1B records daily.",
+        "- Built AWS Step Functions, Lambda, and DynamoDB data pipelines for large-scale recommendation workloads.",
+        "- Built Spark-oriented data pipelines and data lake/lakehouse capabilities at Ithaka, aligned with Databricks operating patterns.",
         "- Built MLOps pipelines, advanced search ranking, A/B testing, and distributed search platforms on AWS EKS and Apache Solr.",
-        "- Established enterprise architecture programs and healthcare research data platforms supporting national-scale initiatives.",
         "",
         "## Recent Leadership Experience",
         "",
@@ -296,7 +297,9 @@ def build_one_pager(meta: dict[str, str], body: str) -> str:
 
         bullets = list(job["bullets"])
         if job["company"] == "SiriusXM":
-            selected_bullets = [bullets[0], bullets[1], bullets[2], bullets[4]]
+            selected_bullets = [bullets[0], bullets[1], bullets[2], bullets[3]]
+        elif job["company"] == "Ithaka":
+            selected_bullets = bullets[:3]
         else:
             selected_bullets = bullets[:2]
         lines.extend(f"- {bullet}" for bullet in selected_bullets)

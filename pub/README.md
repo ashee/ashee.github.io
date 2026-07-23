@@ -6,17 +6,18 @@ Ann Arbor, MI | <amitava.shee@gmail.com> | (646) 387-7200 | [www.amitavashee.com
 
 <a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee.pdf"> Resume</a> / <a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee Chronological.pdf"> Resume Chronological</a>
 
-## Engineering Leadership | AI, Personalization, Search & Platform Engineering
+## Engineering Leadership | AI, Personalization, Search & Big Data Platform Engineering
 
-15+ years leading AI, ML, search, recommendation, cloud, and platform engineering teams across media, fintech, healthcare, education, and financial services. Built internet-scale personalization platforms, modernized search and MLOps systems, led engineering organizations, and delivered measurable cost, scale, and product impact.
+15+ years leading AI, ML, search, recommendation, big data, cloud, and platform engineering teams across media, fintech, healthcare, education, and financial services. Built internet-scale personalization platforms, modernized search, Spark, data lake, and MLOps systems, led engineering organizations, and delivered measurable cost, scale, and product impact.
 
 ## Selected Impact
 
 - Launched a SiriusXM recommendation engine for 30M consumers on a new streaming platform in 13 months.
 - Reduced monthly cloud spend 68%, from $1.57M to $507K, without impacting system performance.
-- Led a 20-person engineering team operating ML platforms for online and batch inference processing over 1B records daily.
+- Led a 20-person engineering team operating ML and big data platforms for online and batch inference processing over 1B records daily.
+- Built AWS Step Functions, Lambda, and DynamoDB data pipelines for large-scale recommendation workloads.
+- Built Spark-oriented data pipelines and data lake/lakehouse capabilities at Ithaka, aligned with Databricks operating patterns.
 - Built MLOps pipelines, advanced search ranking, A/B testing, and distributed search platforms on AWS EKS and Apache Solr.
-- Established enterprise architecture programs and healthcare research data platforms supporting national-scale initiatives.
 
 ## Recent Leadership Experience
 
@@ -26,8 +27,8 @@ Nov 2022 - Present | New York, NY
 
 - As acting Director of Personalization, engineered and launched a new recommendation engine for 30M consumers on a new streaming platform, achieving a market launch in a record 13 months.
 - Optimized cloud costs by 68%, reducing monthly spend from $1.57M to $507K without impacting system performance.
-- Led a 20-person engineering team to build and operate a machine learning platform for online and batch inference, processing over 1B records daily at scale.
-- Executing the delivery of MCP-connected apps for ChatGPT, Claude, and Gemini after successful proofs of concept, including AI/LLM and retrieval-augmented generation implementations using PostgreSQL, pgvector, and Neptune.
+- Led a 20-person engineering team to build and operate a machine learning and big data platform for online and batch inference, processing over 1B records daily at scale.
+- Built serverless data pipelines using AWS Step Functions, Lambda, and DynamoDB for large-scale recommendation and personalization workloads.
 
 ### reThought Insurance | Chief Technology Officer
 
@@ -42,6 +43,7 @@ Jan 2017 - May 2021 | Ann Arbor, MI
 
 - Drove product growth by implementing advanced search features, including a Learning to Boost (L2B) ML model to dynamically generate search engine parameters.
 - Developed a continuous MLOps pipeline to data mine clickstream data, train models, and deploy them to production, accelerating the release cycle.
+- Built Spark-based data pipelines and data lake/lakehouse capabilities, including Databricks-aligned platform practices for large-scale analytics and ML workflows.
 
 ## Earlier Experience Summary
 
@@ -49,7 +51,7 @@ Held architecture and engineering leadership roles at University of Michigan (He
 
 ## Core Skills
 
-Engineering Leadership | Artificial Intelligence (AI) | Recommendation Systems | Personalization | Large Language Models (LLM) | Retrieval-Augmented Generation (RAG) | Machine Learning | Machine Learning Operations (MLOps) | Search Engines | Cloud Architecture | Amazon Web Services (AWS) | Kubernetes | Platform Engineering | Model Context Protocol (MCP)
+Engineering Leadership | Artificial Intelligence (AI) | Recommendation Systems | Personalization | Large Language Models (LLM) | Retrieval-Augmented Generation (RAG) | Machine Learning | Machine Learning Operations (MLOps) | Apache Spark | Databricks | Data Lakes | Search Engines | Cloud Architecture | Amazon Web Services (AWS)
 
 ## Education & Certifications
 

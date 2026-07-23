@@ -5,12 +5,12 @@ linkedin_location: Ann Arbor, Michigan, United States
 linkedin_about: |
   Technology leader with 15+ years of experience building and scaling cloud-native recommendation and search engines at internet scale. I lead multidisciplinary teams across AI, software engineering, data science, and platform engineering to turn complex technical challenges into resilient platforms and differentiated products.
 
-  At SiriusXM, as acting Director of Personalization, I helped launch a recommendation engine serving 30 million consumers on a new streaming platform in 13 months. I led a 20-person engineering team in building and operating an ML platform for online and batch inference that processes more than 1 billion records daily, and reduced monthly cloud spend by 68%, from $1.57 million to $507,000, without affecting system performance. I am now executing the delivery of MCP-connected apps for ChatGPT, Claude, and Gemini, building on successful proofs of concept and implementing AI/LLM and retrieval-augmented generation with PostgreSQL, pgvector, and Neptune.
+  At SiriusXM, as acting Director of Personalization, I helped launch a recommendation engine serving 30 million consumers on a new streaming platform in 13 months. I led a 20-person engineering team in building and operating an ML and big data platform for online and batch inference that processes more than 1 billion records daily, using AWS Step Functions, Lambda, and DynamoDB for serverless data pipeline orchestration. I reduced monthly cloud spend by 68%, from $1.57 million to $507,000, without affecting system performance. I am now executing the delivery of MCP-connected apps for ChatGPT, Claude, and Gemini, building on successful proofs of concept and implementing AI/LLM and retrieval-augmented generation with PostgreSQL, pgvector, and Neptune.
 
-  My experience spans music streaming, fintech, healthcare, education, and financial services. I have built MLOps pipelines, modernized distributed search, designed cloud-native platforms on AWS and Kubernetes, established an enterprise architecture practice, and led engineering organizations through major product and platform transformations.
+  My experience spans music streaming, fintech, healthcare, education, and financial services. I have built MLOps and Spark-based data pipelines, modernized distributed search, designed cloud-native platforms on AWS, Kubernetes, and data lake architectures, established an enterprise architecture practice, and led engineering organizations through major product and platform transformations.
 
-  Core areas: engineering leadership, AI and LLM platforms, recommendation and personalization, search, machine learning platforms, MLOps, retrieval-augmented generation, cloud architecture, Kubernetes, product innovation, and enterprise strategy.
-linkedin_skills: Engineering Leadership, Artificial Intelligence (AI), Recommendation Systems, Personalization, Large Language Models (LLM), Retrieval-Augmented Generation (RAG), Machine Learning, Machine Learning Operations (MLOps), Search Engines, Cloud Architecture, Amazon Web Services (AWS), Kubernetes, Platform Engineering, Model Context Protocol (MCP), PostgreSQL, Software Architecture, Distributed Systems, Data Science, Apache Solr, Enterprise Architecture
+  Core areas: engineering leadership, AI and LLM platforms, recommendation and personalization, search, machine learning platforms, MLOps, Spark and big data platforms, data lakes and lakehouse architecture, retrieval-augmented generation, cloud architecture, Kubernetes, product innovation, and enterprise strategy.
+linkedin_skills: Engineering Leadership, Artificial Intelligence (AI), Recommendation Systems, Personalization, Large Language Models (LLM), Retrieval-Augmented Generation (RAG), Machine Learning, Machine Learning Operations (MLOps), Apache Spark, Databricks, Data Lakes, Search Engines, Cloud Architecture, Amazon Web Services (AWS), Kubernetes, Platform Engineering, Model Context Protocol (MCP), PostgreSQL, Software Architecture, Distributed Systems, Data Science, Apache Solr, Enterprise Architecture
 github_url: https://github.com/ashee/
 linkedin_url: https://www.linkedin.com/in/amitavashee/
 ---
@@ -21,7 +21,7 @@ Ann Arbor, MI | <amitava.shee@gmail.com> | (646) 387-7200 | [www.amitavashee.com
 
 ## Summary
 
-Results-driven technology leader with 15+ years of experience specializing in building and scaling cloud-native recommendation and search engines at internet scale. Proven track record of delivering high-impact platforms that accelerate time-to-market and achieve significant cost savings. Experienced in leading multidisciplinary teams across AI, software engineering, data science, and platform engineering for global brands in music streaming, fintech, and healthcare.
+Results-driven technology leader with 15+ years of experience specializing in building and scaling cloud-native recommendation, search, and big data platforms at internet scale. Proven track record of delivering high-impact platforms that accelerate time-to-market and achieve significant cost savings. Experienced in leading multidisciplinary teams across AI, software engineering, data science, and platform engineering for global brands in music streaming, fintech, and healthcare.
 
 ## Experience
 
@@ -29,7 +29,8 @@ Results-driven technology leader with 15+ years of experience specializing in bu
 
 - As acting Director of Personalization, engineered and launched a new recommendation engine for 30M consumers on a new streaming platform, achieving a market launch in a record 13 months.
 - Optimized cloud costs by 68%, reducing monthly spend from $1.57M to $507K without impacting system performance.
-- Led a 20-person engineering team to build and operate a machine learning platform for online and batch inference, processing over 1B records daily at scale.
+- Led a 20-person engineering team to build and operate a machine learning and big data platform for online and batch inference, processing over 1B records daily at scale.
+- Built serverless data pipelines using AWS Step Functions, Lambda, and DynamoDB for large-scale recommendation and personalization workloads.
 - Architected a resilient, fault-tolerant platform that enabled rapid innovation and delivered new differentiated product offerings.
 - Executing the delivery of MCP-connected apps for ChatGPT, Claude, and Gemini after successful proofs of concept, including AI/LLM and retrieval-augmented generation implementations using PostgreSQL, pgvector, and Neptune.
 
@@ -43,6 +44,7 @@ Results-driven technology leader with 15+ years of experience specializing in bu
 
 - Drove product growth by implementing advanced search features, including a Learning to Boost (L2B) ML model to dynamically generate search engine parameters.
 - Developed a continuous MLOps pipeline to data mine clickstream data, train models, and deploy them to production, accelerating the release cycle.
+- Built Spark-based data pipelines and data lake/lakehouse capabilities, including Databricks-aligned platform practices for large-scale analytics and ML workflows.
 - Led the migration of distributed search from DataStax to Apache Solr on AWS EKS, resulting in significant cost savings and improved scalability at internet scale.
 - Implemented a statistical A/B testing framework to validate product changes and guide data-driven decisions.
 
@@ -95,7 +97,7 @@ Results-driven technology leader with 15+ years of experience specializing in bu
 
 **Engineering Leadership:** Led teams of 20+ engineers to deliver a new streaming platform in a record 13 months, enabling business innovation at scale.
 
-**Data & AI Platforms:** Built and scaled recommendation and search engines, and led the development of MLOps pipelines for continuous model delivery.
+**Data & AI Platforms:** Built and scaled recommendation, search, Spark, and big data platforms, including MLOps pipelines, data lake/lakehouse capabilities, and Databricks-aligned operating patterns for continuous model delivery.
 
 **Cloud & Architecture:** Architected and modernized cloud-native platforms on AWS and Kubernetes, driving significant cost savings and operational efficiency.
 
