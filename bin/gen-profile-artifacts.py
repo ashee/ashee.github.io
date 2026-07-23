@@ -242,7 +242,31 @@ def build_one_pager(meta: dict[str, str], body: str) -> str:
     earlier_experience = experience[3:]
     skills = [skill.strip() for skill in meta["linkedin_skills"].split(",")]
 
-    earlier_companies = ", ".join(str(job["company"]) for job in earlier_experience)
+    earlier_company_groups = {
+        "University of Michigan (Health System and Medical School)": {
+            "University of Michigan Health System",
+            "University of Michigan Medical School",
+        }
+    }
+    earlier_company_group_order = list(earlier_company_groups)
+    earlier_company_seen: set[str] = set()
+    earlier_company_names: list[str] = []
+
+    for job in earlier_experience:
+        company = str(job["company"])
+        grouped_company = next(
+            (
+                group
+                for group in earlier_company_group_order
+                if company in earlier_company_groups[group]
+            ),
+            company,
+        )
+        if grouped_company not in earlier_company_seen:
+            earlier_company_seen.add(grouped_company)
+            earlier_company_names.append(grouped_company)
+
+    earlier_companies = ", ".join(earlier_company_names)
     core_skills = " | ".join(skills[:14])
 
     lines: list[str] = [
