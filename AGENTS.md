@@ -2,7 +2,7 @@
 
 ## Repository purpose
 
-This repository is the source of truth for Amitava Shee's professional profile, including the personal website, resume, one-page resume, and LinkedIn profile. Generated publishing artifacts live under `pub/`; Jekyll is intentionally disabled with `.nojekyll`.
+This repository is the source of truth for Amitava Shee's professional profile, including the personal website, default resume, chronological resume, and LinkedIn profile. Generated publishing artifacts live under `pub/`; Jekyll is intentionally disabled with `.nojekyll`.
 
 ## Source of truth
 
@@ -10,7 +10,7 @@ This repository is the source of truth for Amitava Shee's professional profile, 
 - `Amitava Shee.md` is retained only as a compatibility pointer to `profile.md`.
 - Files under `pub/`, including `pub/README.md`, `pub/index.html`, `pub/linkedin-profile.md`, generated Markdown resumes, copied CSS, and generated PDF files, are generated artifacts. Do not edit factual profile data there.
 - `Amitava Shee.md`, `minimal-resume.md`, and `ml-highlights.md` are retained only as compatibility pointers to `profile.md`.
-- When updating the published resume, one-page resume, website, or LinkedIn profile, update `profile.md` first and run `bin/gen-profile-artifacts.py`.
+- When updating the published resume, chronological resume, website, or LinkedIn profile, update `profile.md` first and run `bin/gen-profile-artifacts.py`.
 - Preserve names, dates, metrics, job titles, and contact details exactly unless the user explicitly requests a factual change. Do not invent or infer resume claims.
 
 ## Project structure
@@ -22,9 +22,9 @@ This repository is the source of truth for Amitava Shee's professional profile, 
 - `pub/README.md`: generated Markdown source for the static site home page and web resume.
 - `pub/index.html`: generated static site home page.
 - `pub/linkedin-profile.md`: generated copy-ready LinkedIn presentation derived from the canonical profile.
-- `pub/Amitava Shee 1 Pager.md`: generated one-page resume source derived from the canonical profile.
-- `pub/Amitava Shee Resume.pdf`: generated full resume PDF.
-- `pub/Amitava Shee 1 Pager.pdf`: generated one-page resume PDF.
+- `pub/Amitava Shee Resume.md`: generated concise resume source derived from the canonical profile.
+- `pub/Amitava Shee Resume.pdf`: generated default concise resume PDF.
+- `pub/Amitava Shee Resume Chronological.pdf`: generated full chronological resume PDF.
 - `pub/assets/site.css` and `pub/assets/markdown.css`: copied static assets for the generated site.
 - `linkedin/update-checklist.md`: manual LinkedIn synchronization and verification workflow.
 - `templates/site.html`: Pandoc HTML template for the static site.
@@ -34,7 +34,7 @@ This repository is the source of truth for Amitava Shee's professional profile, 
 - `bin/gen-profile-artifacts.py`: generates all files under `pub/` from `profile.md`.
 - `bin/gen-site.sh`: low-level helper that generates `pub/index.html` from `pub/README.md` by default.
 - `bin/s.sh`: generates the static site and serves it locally with Python's HTTP server.
-- `bin/gen-pdf.sh`: generates `pub/Amitava Shee Resume.pdf` from `profile.md` by default.
+- `bin/gen-pdf.sh`: generates `pub/Amitava Shee Resume Chronological.pdf` from `profile.md` by default.
 - `bin/ren-readme-pdf.sh`: legacy helper for manually exported `README.pdf` files.
 
 ## Working conventions
@@ -54,7 +54,7 @@ Generate all profile artifacts with:
 bin/gen-profile-artifacts.py
 ```
 
-This updates `pub/README.md`, `pub/linkedin-profile.md`, `pub/index.html`, `pub/Amitava Shee Resume.pdf`, `pub/Amitava Shee 1 Pager.md`, and `pub/Amitava Shee 1 Pager.pdf` from `profile.md`.
+This updates `pub/README.md`, `pub/linkedin-profile.md`, `pub/index.html`, `pub/Amitava Shee Resume.md`, `pub/Amitava Shee Resume.pdf`, and `pub/Amitava Shee Resume Chronological.pdf` from `profile.md`.
 
 Generate only the static site with:
 
@@ -76,4 +76,4 @@ Generate the resume PDF from the repository root with:
 bin/gen-pdf.sh
 ```
 
-The build requires Pandoc and XeLaTeX and uses `profile.md` as its default source. Review the page count, text extraction, and final visual layout after material content or style changes.
+The build requires Pandoc and XeLaTeX and uses `profile.md` as its default source, producing the chronological resume by default. Review the page count, text extraction, and final visual layout after material content or style changes.

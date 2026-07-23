@@ -19,9 +19,9 @@ expected_artifacts=(
   "$pub_dir/CNAME"
   "$pub_dir/index.html"
   "$pub_dir/linkedin-profile.md"
-  "$pub_dir/Amitava Shee 1 Pager.md"
-  "$pub_dir/Amitava Shee 1 Pager.pdf"
+  "$pub_dir/Amitava Shee Resume.md"
   "$pub_dir/Amitava Shee Resume.pdf"
+  "$pub_dir/Amitava Shee Resume Chronological.pdf"
   "$pub_dir/assets/site.css"
   "$pub_dir/assets/markdown.css"
 )
@@ -58,16 +58,16 @@ if ! grep -q 'href="assets/markdown.css"' "$pub_dir/index.html"; then
 fi
 
 if command -v pdfinfo >/dev/null 2>&1; then
-  one_pager_pages=$(pdf_pages "$pub_dir/Amitava Shee 1 Pager.pdf")
   resume_pages=$(pdf_pages "$pub_dir/Amitava Shee Resume.pdf")
+  chronological_pages=$(pdf_pages "$pub_dir/Amitava Shee Resume Chronological.pdf")
 
-  if [ "$one_pager_pages" != "1" ]; then
-    echo "error: expected one-page resume PDF to be 1 page, got $one_pager_pages" >&2
+  if [ "$resume_pages" != "1" ]; then
+    echo "error: expected default resume PDF to be 1 page, got $resume_pages" >&2
     exit 1
   fi
 
-  if [ "$resume_pages" -lt 1 ]; then
-    echo "error: expected resume PDF to have at least 1 page, got $resume_pages" >&2
+  if [ "$chronological_pages" -lt 1 ]; then
+    echo "error: expected chronological resume PDF to have at least 1 page, got $chronological_pages" >&2
     exit 1
   fi
 else

@@ -7,14 +7,14 @@ Profile facts live in `profile.md`. Generate the website Markdown, LinkedIn prof
 bin/gen-profile-artifacts.py
 ```
 
-This writes `README.md`, `linkedin/linkedin-profile.md`, `index.html`, and `Amitava Shee Resume.pdf`. Install the required tools on macOS with:
+This writes the generated site, LinkedIn profile, default resume, and chronological resume under `pub/`. Install the required tools on macOS with:
 
 ```sh
 brew install pandoc
 brew install --cask mactex-no-gui
 ```
 
-To generate only the resume PDF, run:
+To generate only the chronological resume PDF, run:
 
 ```sh
 bin/gen-pdf.sh

@@ -12,9 +12,9 @@ PROFILE = REPO_ROOT / "profile.md"
 PUB = REPO_ROOT / "pub"
 README = PUB / "README.md"
 LINKEDIN = PUB / "linkedin-profile.md"
-ONE_PAGER = PUB / "Amitava Shee 1 Pager.md"
+RESUME = PUB / "Amitava Shee Resume.md"
 RESUME_PDF = PUB / "Amitava Shee Resume.pdf"
-ONE_PAGER_PDF = PUB / "Amitava Shee 1 Pager.pdf"
+CHRONOLOGICAL_RESUME_PDF = PUB / "Amitava Shee Resume Chronological.pdf"
 CNAME = REPO_ROOT / "CNAME"
 
 
@@ -322,7 +322,7 @@ def main() -> None:
     PUB.mkdir(exist_ok=True)
     README.write_text(build_readme(meta, body), encoding="utf-8")
     LINKEDIN.write_text(build_linkedin(meta, body), encoding="utf-8")
-    ONE_PAGER.write_text(build_one_pager(meta, body), encoding="utf-8")
+    RESUME.write_text(build_one_pager(meta, body), encoding="utf-8")
     (PUB / ".nojekyll").write_text("", encoding="utf-8")
     if CNAME.exists():
         (PUB / "CNAME").write_text(CNAME.read_text(encoding="utf-8"), encoding="utf-8")
@@ -332,9 +332,13 @@ def main() -> None:
         cwd=REPO_ROOT,
         check=True,
     )
-    subprocess.run([str(REPO_ROOT / "bin" / "gen-pdf.sh"), str(PROFILE), str(RESUME_PDF)], cwd=REPO_ROOT, check=True)
     subprocess.run(
-        [str(REPO_ROOT / "bin" / "gen-pdf.sh"), str(ONE_PAGER), str(ONE_PAGER_PDF)],
+        [str(REPO_ROOT / "bin" / "gen-pdf.sh"), str(RESUME), str(RESUME_PDF)],
+        cwd=REPO_ROOT,
+        check=True,
+    )
+    subprocess.run(
+        [str(REPO_ROOT / "bin" / "gen-pdf.sh"), str(PROFILE), str(CHRONOLOGICAL_RESUME_PDF)],
         cwd=REPO_ROOT,
         check=True,
     )
