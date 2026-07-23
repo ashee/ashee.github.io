@@ -8,5 +8,5 @@ port=${PORT:-4000}
 
 "$script_dir/gen-profile-artifacts.py"
 
-cd "$repo_root"
+cd "$repo_root/pub"
 python3 -m http.server "$port"

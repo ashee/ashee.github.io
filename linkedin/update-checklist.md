@@ -1,12 +1,12 @@
 # LinkedIn Update Checklist
 
-Use `linkedin-profile.md` as the copy-ready LinkedIn presentation. It is generated from `../profile.md`.
+Use `../pub/linkedin-profile.md` as the copy-ready LinkedIn presentation. It is generated from `../profile.md`.
 
 ## Before editing LinkedIn
 
 - [ ] Confirm that all new facts were added to `profile.md` first.
 - [ ] Run `bin/gen-profile-artifacts.py` from the repository root.
-- [ ] Compare `linkedin-profile.md` with `profile.md` for titles, dates, locations, and metrics.
+- [ ] Compare `../pub/linkedin-profile.md` with `../profile.md` for titles, dates, locations, and metrics.
 - [ ] Review the Headline and About sections for tone and current career goals.
 - [ ] Decide whether LinkedIn's network-notification setting should be enabled or disabled.
 

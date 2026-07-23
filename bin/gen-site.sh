@@ -5,8 +5,8 @@ set -eu
 script_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 repo_root=$(CDPATH= cd -- "$script_dir/.." && pwd)
 
-source_file=${1:-"$repo_root/README.md"}
-output_file=${2:-"$repo_root/index.html"}
+source_file=${1:-"$repo_root/pub/README.md"}
+output_file=${2:-"$repo_root/pub/index.html"}
 template_file="$repo_root/templates/site.html"
 site_url=${SITE_URL:-}
 
@@ -37,6 +37,11 @@ fi
 build_dir=$(mktemp -d "${TMPDIR:-/tmp}/amitava-site.XXXXXX")
 trap 'rm -rf "$build_dir"' EXIT HUP INT TERM
 
+output_dir=$(dirname -- "$output_file")
+mkdir -p "$output_dir"
+asset_dir="$output_dir/assets"
+mkdir -p "$asset_dir"
+
 sed "s|{{site_url}}|$site_url|g" "$source_file" > "$build_dir/source.md"
 
 pandoc "$build_dir/source.md" \
@@ -48,5 +53,8 @@ pandoc "$build_dir/source.md" \
     --metadata=description:"Consultant - AI, Personalization, and Platform Engineering" \
     --metadata=site_url:"$site_url" \
     --output="$output_file"
+
+cp "$repo_root/assets/site.css" "$asset_dir/site.css"
+cp "$repo_root/assets/markdown.css" "$asset_dir/markdown.css"
 
 echo "Generated $output_file"

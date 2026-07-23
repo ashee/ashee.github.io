@@ -9,8 +9,12 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 PROFILE = REPO_ROOT / "profile.md"
-README = REPO_ROOT / "README.md"
-LINKEDIN = REPO_ROOT / "linkedin" / "linkedin-profile.md"
+PUB = REPO_ROOT / "pub"
+README = PUB / "README.md"
+LINKEDIN = PUB / "linkedin-profile.md"
+ONE_PAGER = PUB / "Amitava Shee 1 Pager.md"
+RESUME_PDF = PUB / "Amitava Shee Resume.pdf"
+ONE_PAGER_PDF = PUB / "Amitava Shee 1 Pager.pdf"
 
 
 STATE_NAMES = {
@@ -238,13 +242,98 @@ def build_linkedin(meta: dict[str, str], body: str) -> str:
     return "\n".join(lines)
 
 
+def build_one_pager(meta: dict[str, str], body: str) -> str:
+    name, contact, _ = name_and_contact(body)
+    sections = split_sections(body)
+    experience = parse_experience(sections["Experience"])
+    recent_experience = experience[:3]
+    earlier_experience = experience[3:]
+    skills = [skill.strip() for skill in meta["linkedin_skills"].split(",")]
+
+    earlier_companies = ", ".join(str(job["company"]) for job in earlier_experience)
+    core_skills = " | ".join(skills[:14])
+
+    lines: list[str] = [
+        generated_notice(),
+        "",
+        f"# {name}",
+        "",
+        contact,
+        "",
+        "## Technology Executive | AI, Personalization, Search & Platform Engineering",
+        "",
+        "15+ years leading AI, ML, search, recommendation, cloud, and platform engineering teams across media, fintech, healthcare, education, and financial services. Built internet-scale personalization platforms, modernized search and MLOps systems, led engineering organizations, and delivered measurable cost, scale, and product impact.",
+        "",
+        "## Selected Impact",
+        "",
+        "- Launched a SiriusXM recommendation engine for 30M consumers on a new streaming platform in 13 months.",
+        "- Reduced monthly cloud spend 68%, from $1.57M to $507K, without impacting system performance.",
+        "- Led a 20-person engineering team operating ML platforms for online and batch inference processing over 1B records daily.",
+        "- Built MLOps pipelines, advanced search ranking, A/B testing, and distributed search platforms on AWS EKS and Apache Solr.",
+        "- Established enterprise architecture programs and healthcare research data platforms supporting national-scale initiatives.",
+        "",
+        "## Recent Leadership Experience",
+        "",
+    ]
+
+    for job in recent_experience:
+        lines.extend(
+            [
+                f"### {job['company']} | {job['title']}",
+                "",
+                f"{job['dates']} | {job['location']}",
+                "",
+            ]
+        )
+
+        bullets = list(job["bullets"])
+        if job["company"] == "SiriusXM":
+            selected_bullets = [bullets[0], bullets[1], bullets[2], bullets[4]]
+        else:
+            selected_bullets = bullets[:2]
+        lines.extend(f"- {bullet}" for bullet in selected_bullets)
+        lines.append("")
+
+    lines.extend(
+        [
+            "## Earlier Experience Summary",
+            "",
+            f"Held architecture and engineering leadership roles at {earlier_companies}. Work included healthcare research platforms, enterprise architecture, cloud adoption, Epic selection, banking integrations, securities platforms, SSO, mainframe modernization, EDI, and C/C++ systems engineering.",
+            "",
+            "## Core Skills",
+            "",
+            core_skills,
+            "",
+            "## Education & Certifications",
+            "",
+            sections["Education"],
+            "",
+            "MOR Leaders Program | Scrum Alliance",
+            "",
+        ]
+    )
+
+    return "\n".join(lines)
+
+
 def main() -> None:
     meta, body = read_profile()
+    PUB.mkdir(exist_ok=True)
     README.write_text(build_readme(meta, body), encoding="utf-8")
     LINKEDIN.write_text(build_linkedin(meta, body), encoding="utf-8")
+    ONE_PAGER.write_text(build_one_pager(meta, body), encoding="utf-8")
 
-    subprocess.run([str(REPO_ROOT / "bin" / "gen-site.sh")], cwd=REPO_ROOT, check=True)
-    subprocess.run([str(REPO_ROOT / "bin" / "gen-pdf.sh")], cwd=REPO_ROOT, check=True)
+    subprocess.run(
+        [str(REPO_ROOT / "bin" / "gen-site.sh"), str(README), str(PUB / "index.html")],
+        cwd=REPO_ROOT,
+        check=True,
+    )
+    subprocess.run([str(REPO_ROOT / "bin" / "gen-pdf.sh"), str(PROFILE), str(RESUME_PDF)], cwd=REPO_ROOT, check=True)
+    subprocess.run(
+        [str(REPO_ROOT / "bin" / "gen-pdf.sh"), str(ONE_PAGER), str(ONE_PAGER_PDF)],
+        cwd=REPO_ROOT,
+        check=True,
+    )
 
 
 if __name__ == "__main__":

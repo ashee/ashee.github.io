@@ -4,5 +4,6 @@ _site/
 .jekyll-metadata
 *.pdf
 .DS_Store
-!Amitava Shee Resume.pdf
+__pycache__/
+!pub/*.pdf
 Amitava Shee.html
