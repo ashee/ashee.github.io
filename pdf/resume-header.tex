@@ -28,12 +28,12 @@
 \titleformat{\section}
   {\fontsize{18}{20}\selectfont\bfseries}
   {}{0pt}{}
-\titlespacing*{\section}{0pt}{0pt}{2pt}
+\titlespacing*{\section}{0pt}{2pt}{5pt}
 
 \titleformat{\subsection}
   {\fontsize{11}{13}\selectfont\bfseries}
-  {}{0pt}{}[\vspace{-3pt}\titlerule]
-\titlespacing*{\subsection}{0pt}{7pt}{3pt}
+  {}{0pt}{}[\ifdefined\ResumeShowRules\vspace{1pt}\titlerule\fi]
+\titlespacing*{\subsection}{0pt}{8pt}{5pt}
 
 \AtBeginDocument{%
   \pagestyle{empty}%
