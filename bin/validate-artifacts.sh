@@ -15,6 +15,8 @@ legacy_artifacts=(
 
 expected_artifacts=(
   "$pub_dir/README.md"
+  "$pub_dir/.nojekyll"
+  "$pub_dir/CNAME"
   "$pub_dir/index.html"
   "$pub_dir/linkedin-profile.md"
   "$pub_dir/Amitava Shee 1 Pager.md"

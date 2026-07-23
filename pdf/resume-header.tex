@@ -6,13 +6,23 @@
 
 \definecolor{MidnightBlue}{RGB}{20,55,90}
 
-\setmainfont[
-  Path=/usr/local/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/,
-  UprightFont=*-Regular.ttf,
-  BoldFont=*-Bold.ttf,
-  ItalicFont=*-Italic.ttf,
-  BoldItalicFont=*-BoldItalic.ttf
-]{Lato}
+\IfFileExists{/usr/local/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-Regular.ttf}{
+  \setmainfont[
+    Path=/usr/local/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/,
+    UprightFont=*-Regular.ttf,
+    BoldFont=*-Bold.ttf,
+    ItalicFont=*-Italic.ttf,
+    BoldItalicFont=*-BoldItalic.ttf
+  ]{Lato}
+}{
+  \setmainfont[
+    Path=/usr/share/fonts/truetype/lato/,
+    UprightFont=*-Regular.ttf,
+    BoldFont=*-Bold.ttf,
+    ItalicFont=*-Italic.ttf,
+    BoldItalicFont=*-BoldItalic.ttf
+  ]{Lato}
+}
 
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
