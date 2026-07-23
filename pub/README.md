@@ -4,7 +4,7 @@
 
 _Consultant, Services & Platform Engineering at SiriusXM | Acting Director of Personalization_
 
-<a class="bi bi-envelope" href="mailto:amitava.shee@gmail.com"> Email</a> / <a class="bi bi-telephone" href="tel:+16463877200"> Phone</a> / <a class="bi bi-globe" href="{{site_url}}"> Website</a> / <a class="bi bi-linkedin" href="https://www.linkedin.com/in/amitavashee/"> LinkedIn</a> / <a class="bi bi-github" href="https://github.com/ashee/"> GitHub</a> / <a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee.pdf"> Resume</a>
+<a class="bi bi-envelope" href="mailto:amitava.shee@gmail.com"> Email</a> / <a class="bi bi-telephone" href="tel:+16463877200"> Phone</a> / <a class="bi bi-globe" href="{{site_url}}"> Website</a> / <a class="bi bi-linkedin" href="https://www.linkedin.com/in/amitavashee/"> LinkedIn</a> / <a class="bi bi-github" href="https://github.com/ashee/"> GitHub</a> / <a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee.pdf"> Resume</a> / <a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee Chronological.pdf"> Resume Chronological</a>
 
 Ann Arbor, MI
 

@@ -159,7 +159,8 @@ def build_readme(meta: dict[str, str], body: str) -> str:
         '<a class="bi bi-globe" href="{{site_url}}"> Website</a> / '
         f'<a class="bi bi-linkedin" href="{linkedin_url}"> LinkedIn</a> / '
         f'<a class="bi bi-github" href="{github_url}"> GitHub</a> / '
-        '<a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee.pdf"> Resume</a>'
+        '<a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee.pdf"> Resume</a> / '
+        '<a class="bi bi-file-earmark-pdf" href="{{site_url}}/Amitava Shee Chronological.pdf"> Resume Chronological</a>'
     )
 
     return "\n\n".join(
